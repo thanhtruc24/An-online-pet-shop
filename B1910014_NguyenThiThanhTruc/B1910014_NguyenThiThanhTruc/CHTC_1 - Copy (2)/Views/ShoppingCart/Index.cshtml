@@ -1,0 +1,227 @@
+﻿@model List<CHTC_1.ModelViews.CartItem>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var returnUrl = Context.Request.Query["ReturnUrl"];
+}
+
+<section class="h-100 h-custom">
+    <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            @if (Model != null && Model.Count() > 0)
+            {
+                <div class="col">
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="h5">Giỏ hàng</th>
+                                    <th scope="col">Sản phẩm</th>
+                                    <th scope="col">Số lượng</th>
+                                    <th scope="col">Đơn giá</th>
+                                    <th scope="col">Thành tiền</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="d-flex align-items-center">
+                                                <img src="/images/@item.SanPham.SpHinhanh" class="img-fluid rounded-3"
+                                                     style="width: 120px;" alt="Book">
+
+                                            </div>
+                                        </th>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">@item.SanPham.SpTensp</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <div class="d-flex flex-row">
+                                                <input data-mahh="@item.SanPham.SpId" data-dongia="@item.SanPham.SpGia" id="form1" min="1" name="quantity" value="@item.Soluong" type="number"
+                                                       class="form-control form-control-sm cartItem" style="width: 100px;" />
+
+                                            </div>
+                                        </td>
+                     
+                                        <td class="align-middle">
+                                            <p class="mb-0"style="font-weight: 500;">@item.SanPham.SpGia.ToString("#,##0") VNĐ</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">@item.Tongtien.ToString("#,##0") VNĐ</p>
+                                        </td>
+                                        <td class="align-middle">
+                                           @* <button class="removecart" data-mahh="@item.SanPham.SpId" style="border:1px solid rgb(9, 122, 60);border-radius: 8px;width: 80px;color:antiquewhite;background-color: rgb(9, 122, 60);">Xoá</button>*@
+                                            <span class="material-symbols-outlined removecart" data-mahh="@item.SanPham.SpId">
+                                                delete
+                                            </span>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div>
+                        <div class="card-body p-4">
+
+                            <div class="row" style="justify-content: flex-end;">
+                                @*<div class="col-lg-4 col-xl-3">*@
+
+                                    @*<div class="col-md-6 col-lg-5 col-xl-3 mb-4 mb-md-0">
+                                        <div class="d-flex flex-row pb-3">
+                                            <div class="d-flex align-items-center pe-2">
+                                                <input asp-for="pttt"class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1v"
+                                                       value="1" aria-label="..." checked />
+
+                                            </div>
+                                            <div class="rounded border w-100 p-3">
+                                                <p class="d-flex align-items-center mb-0">
+                                                    Thanh toán trực tiếp
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <div class="d-flex align-items-center pe-2">
+                                                <input asp-for="pttt" class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel3v"
+                                                       value="2" aria-label="..." />
+                                            </div>
+                                            <div class="rounded border w-100 p-3">
+                                                <p class="d-flex align-items-center mb-0">
+                                                    VNPAY
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>*@
+                                <div class="col-lg-5 col-xl-3">
+
+
+                                    <a asp-controller="Shop" asp-action="Index" class="btn btn-block btn-lg btn-secondary" style="color:white; margin-top:56px">
+                                        <div>
+                                            <span>Tiếp tục mua hàng</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="col-lg-5 col-xl-3">
+
+                                    <div class="d-flex justify-content-between mb-4" style="font-weight: 500;">
+                                        <h5 class="mb-2">Tổng tiền:</h5>
+                                        <h5 class="mb-2">@Model.Sum(x=>x.Tongtien).ToString("#,##0") VNĐ</h5>
+                                    </div>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <a asp-controller="Checkout" asp-action="Index" class="btn btn-block btn-lg" style="background-color:#1cc88a;color:white">
+                                            <div>
+                                                <span>Thanh toán</span>
+                                            </div>
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/Accounts/Login?returnUrl=/Checkout/Index" class="btn btn-block btn-lg" style="background-color:#1cc88a;color:white">
+                                            <div>
+                                                <span>Thanh toán</span>
+                                            </div>
+                                        </a>
+                                    }
+                                    </div>
+                                
+                               @* </div>*@
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            }
+            else
+            {
+                <p>Chưa có sản phẩm. <a asp-action="Index" asp-controller="Shop" style="color:#1cc88a ">Mua hàng ngay</a></p>
+            }
+
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script>
+        $(function () {
+            function loadHeaderCart() {
+                $('#numberCart').load("/AjaxContent/NumberCart");
+            }
+            $(".removecart").click(function () {
+                var productid = $(this).attr("data-mahh");
+                $.ajax({
+                    url: "/ShoppingCart/Remove",
+                    type: "POST",
+                    dataType: "JSON",
+                    data: { productID: productid },
+                    success: function (result) {
+                        if (result.success) {
+                            loadHeaderCart();//Reload lai gio hang
+                            location.reload();
+                        }
+                    },
+                    error: function (rs) {
+                        alert("Remove Cart Error !")
+                    }
+                });
+            });
+            $(".cartItem").click(function () {
+                var productid = $(this).attr("data-mahh");
+                var soluong = parseInt($(this).val());
+                $.ajax({
+                    url: "/ShoppingCart/UpdateCart",
+                    type: "POST",
+                    dataType: "JSON",
+                    data: {
+                        productID: productid,
+                        amount: soluong
+                    },
+                    success: function (result) {
+                        if (result.success) {
+                            loadHeaderCart();//Reload lai gio hang
+                            window.location = '/ShoppingCart/Index';
+                        }
+                    },
+                    error: function (rs) {
+                        alert("Cập nhật Cart Error !")
+                    }
+                });
+            });
+
+            //$('#form1').on('change', function () {
+            //    var soluongmoi = $(this).val();
+            //    var productid = $(this).attr("data-mahh");
+            //    console.log("so luong ", soluongmoi)
+            //    console.log("productid", productid)
+            //    $.ajax({
+            //        type: "GET",
+            //        url: '/Shop/CheckQuantity',
+            //        contentType: "application/json; charset=utf-8",
+            //        dataType: "json",
+            //        data: {
+            //            soluongmoi: soluongmoi,
+            //            productid: productid
+            //        },
+            //        success: function (data) {
+            //            console.log("vao đây", data)
+
+            //            Swal.fire({
+            //                title: 'Số lượng trong kho chỉ còn ' + data.product.spSoluongton + ' sản phẩm.',
+            //                icon: 'info',
+            //                confirmButtonText: 'Đóng'
+            //            });
+            //            $('#form1').val(data.product.spSoluongton)
+            //        },
+            //        error: function (rs) {
+
+            //        },
+            //    })
+            //});
+        });
+    </script>
+}

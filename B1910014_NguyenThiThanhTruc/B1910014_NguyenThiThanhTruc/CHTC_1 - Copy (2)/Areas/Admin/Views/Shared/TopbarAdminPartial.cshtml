@@ -1,0 +1,58 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@*@model List<CHTC_1.ModelViews.Notification>*@
+<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+    <ul class="navbar-nav ml-auto">
+      @*  @if(Model != null && Model.Count() > 0)
+        {
+            <li class="nav-item dropdown no-arrow">
+
+                <a class="nav-icon position-relative text-decoration-none" id="notification" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="Bottom popover" title="Thông báo">
+                    <span class="material-symbols-outlined" style="margin-top:22px;font-size:28px;">
+                        notifications
+                    </span>
+                    <span class="position-absolute translate-middle badge rounded-pill bg-light text-dark" id="countnotifications" style="top:6px;left:22px;color: darkslategrey;">
+                        @Model.Count()
+                    </span>
+
+                </a>
+            </li>
+        }
+        else
+        {*@
+           
+            <li class="nav-item dropdown no-arrow">
+
+            <div class="nav-icon text-decoration-none icon-container">
+                    <span class="material-symbols-outlined" style="margin-top:22px;font-size:28px;" id="icon">
+                        notifications
+                    </span>
+                    <span class="position-absolute translate-middle badge rounded-pill bg-danger text-light" id="countnotifications" style="top:16px;left:22px;color: darkslategrey;">
+                        0
+                    </span>
+                    <div class="popover popover-noti" id="popover">
+                       
+                    </div>
+
+                </div>
+            </li>
+       @* }*@
+      
+        <div class="topbar-divider d-none d-sm-block"></div>
+
+        <!-- Nav Item - User Information -->
+        <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
+                <img id="avtuser" class="img-profile rounded-circle"
+                     src="">
+            </a>
+        </li>
+
+    </ul>
+
+</nav>

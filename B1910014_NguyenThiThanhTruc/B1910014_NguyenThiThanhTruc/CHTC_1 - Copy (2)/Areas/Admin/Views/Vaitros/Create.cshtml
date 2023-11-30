@@ -1,0 +1,34 @@
+﻿@model CHTC_1.Models.VaiTro
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin-left:24px">
+    <h1 style="text-align:center">Tạo vai trò</h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="VtTenvaitro" class="control-label">Tên vai trò</label>
+                    <input asp-for="VtTenvaitro" class="form-control" type="text"/>
+                    <span asp-validation-for="VtTenvaitro" class="text-danger"></span>
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" value="Lưu" class="btn btn-outline-success" />
+                    <a asp-action="Index" class="btn btn-outline-secondary">Trở lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

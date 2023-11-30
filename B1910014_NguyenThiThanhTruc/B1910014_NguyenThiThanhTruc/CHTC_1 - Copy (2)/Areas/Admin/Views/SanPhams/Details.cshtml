@@ -1,0 +1,63 @@
+﻿@model CHTC_1.Models.SanPham
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin:24px">
+    <h1 style="text-align:center">Chi tiết sản phẩm</h1>
+
+<div style="text-align:center">
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Tên sản phẩm:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpTensp)
+        </dd>
+        <dt class = "col-sm-2">
+            Giá:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpGia)
+        </dd>
+       @* <dt class = "col-sm-2">
+            Số lượng:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpSoluong)
+        </dd>*@
+        <dt class = "col-sm-2">
+            Mô tả:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpMota)
+        </dd>
+        <dt class = "col-sm-2">
+            Hình ảnh:
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="/images/@Model.SpHinhanh" width="200px" height="160px" />
+        </dd>
+        <dt class = "col-sm-2">
+           Loại:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LIdNavigation.LTenloai)
+        </dd>
+        <dt class = "col-sm-2">
+            Nhà cung cấp:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ncc.NccTen)
+        </dd>
+    </dl>
+</div>
+<div style="text-align:center">
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.SpId">Chỉnh sửa</a> |
+    <a class="btn" style="background-color:rgb(9, 122, 60);color:antiquewhite" asp-action="Index">Trở lại</a>
+</div>
+</div>
+
+

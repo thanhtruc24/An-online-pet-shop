@@ -1,0 +1,97 @@
+﻿@model CHTC_1.ModelViews.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h1>Login</h1>
+
+<h4>LoginViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Email" />
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+*@
+
+
+
+<div class="container">
+
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-9">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">DoCa xin chào!</h1>
+                                    </div>
+                                    <form class="user" method="post">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control form-control-user" aria-describedby="emailHelp" asp-for="Email" placeholder="Email">
+                                            <span asp-validation-for="Email" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                        <input type="password" class="form-control form-control-user" asp-for="Password"  placeholder="Mật khẩu">
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-control custom-checkbox small">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck">
+                                                <label class="custom-control-label" for="customCheck">Remember
+                                                    Me</label>
+                                            </div>
+                                        </div>
+                                    <button class="btn btn-user btn-block" style="background-color:#1cc88a;font-size: 18px;color:antiquewhite">
+                                            Đăng nhập
+                                        </button>
+                                        <hr>
+                                    <a asp-controller="Accounts" asp-action="GoogleLogin" asp-route-provider="Google" class="btn btn-google btn-user btn-block">
+                                            <i class="fab fa-google fa-fw"></i> Đăng nhập Google
+                                        </a>
+                                    <a asp-controller="Accounts" asp-action="FacebookLogin" asp-route-provider="Facebook" class="btn btn-facebook btn-user btn-block">
+                                            <i class="fab fa-facebook-f fa-fw"></i> Đăng nhập Facebook
+                                        </a>
+                                    </form>
+                                    <hr>
+                                    <div class="text-center">
+                                        <a class="small" href="forgot-password.html">Quên mật khẩu?</a>
+                                    </div>
+                                    <div class="text-center">
+                                    <a class="small" asp-controller="Accounts" asp-action="Register">Tạo tài khoản mới!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

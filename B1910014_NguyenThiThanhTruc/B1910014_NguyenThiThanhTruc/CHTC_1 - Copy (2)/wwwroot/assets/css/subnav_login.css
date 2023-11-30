@@ -1,0 +1,35 @@
+#nav-login {
+    position: relative;
+    display: contents;
+    list-style: none;
+}
+
+#nav-login .subnav-login{
+    position: absolute;
+    list-style: none;
+    width: 180px;
+    padding: 10px;
+    background-color: #ccc;
+    z-index: 1000;
+    height: auto;
+    display: none;
+}
+
+#nav-login .subnav-login a{
+    text-decoration: none;
+}
+
+#nav-login .subnav-login li{
+    width: 140px;
+    height: 32px;
+    margin: 8px 0;
+    margin-left: 24px;
+}
+
+#nav-login li:hover .subnav-login {
+    display: block;
+    top: 38px;
+    left: 80px;
+}
+
+

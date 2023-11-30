@@ -1,0 +1,68 @@
+﻿@model IEnumerable<CHTC_1.Models.PhuongThucThanhToan>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin:24px">
+<h1 style="text-align:center">Phương thức thanh toán</h1>
+
+@*<p>
+    <a asp-action="Create">Tạo mới</a>
+</p>*@
+    <div style="margin:12px 0">
+        <div style="display:inline-block;margin-right:20px">
+            <a asp-action="Create" class="btn btn-outline-info">
+                Thêm mới
+            </a>
+        </div>
+        <div style="display:inline-block">
+            <a asp-action="Delete" class="btn btn-outline-danger">
+                Xóa nhiều
+            </a>
+        </div>
+    </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Phương thức thanh toán
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PtttTen)
+            </td>
+            @*<td>
+                <a asp-action="Edit" asp-route-id="@item.PtttId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PtttId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PtttId">Delete</a>
+            </td>*@
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.PtttId" class="crudicon">
+                            <span class="material-symbols-outlined">
+                                edit_square
+                            </span>
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.PtttId" class="crudicon">
+                            <span class="material-symbols-outlined">
+                                visibility
+                            </span>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.PtttId" class="crudicon">
+                            <span class="material-symbols-outlined">
+                                delete
+                            </span>
+                        </a>
+                    </td>
+
+                   
+        </tr>
+}
+    </tbody>
+</table>
+</div>

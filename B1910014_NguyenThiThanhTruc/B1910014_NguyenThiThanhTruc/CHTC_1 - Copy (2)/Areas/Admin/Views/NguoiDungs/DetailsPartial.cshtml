@@ -1,0 +1,65 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.TaiKhoan>
+<!-- Modal Role-->
+<div class="modal fade" id="DetailsUserModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Chi tiết người dùng</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Nội dung dữ liệu từ controller sẽ được hiển thị ở đây -->
+                <div id="modalContent">
+                    <div style="text-align:center">
+                        <dl class="row">
+                            <dt class="col-4" style="padding:12px 0">
+                                Họ tên:
+                            </dt>
+                            <dd class="col-sm-8" id="userName">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Email:
+                            </dt>
+                            <dd class="col-sm-8" id="userEmail">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Giới tính:
+                            </dt>
+                            <dd class="col-sm-8" id="userGender">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Địa chỉ:
+                            </dt>
+                            <dd class="col-sm-8" id="userAddress">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Số điện thoại:
+                            </dt>
+                            <dd class="col-sm-8" id="userPhone">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Vai trò tài khoản:
+                            </dt>
+                            <dd class="col-sm-8" id="userRole">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Ảnh đại diện:
+                            </dt>
+                            <dd class="col-sm-8">
+                                <img id="userImage" src="" alt="Hình ảnh sản phẩm" style="width:122px">
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

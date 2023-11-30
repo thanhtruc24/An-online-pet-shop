@@ -1,0 +1,736 @@
+﻿@model CHTC_1.ModelViews.SanPhamViewModel
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SanPham> lsSanpham = ViewBag.Sanpham;
+}
+
+<div class="title-detail">
+   @* <p style="text-align: center; margin: 24px 0; font-size: 40px !important;">Chi tiết sản phẩm</p>*@
+</div>
+<!-- Open Content -->
+<section class="bg-light">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-5 mt-5">
+                <div class="card mb-3">
+                    <img class="card-img img-fluid" src="/images/@Model.SanPham.SpHinhanh" alt="Card image cap" id="product-detail">
+                </div>
+            </div>
+            <!-- col end -->
+            <div class="col-lg-7 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <h1 style="color:#1cc88a">@Model.SanPham.SpTensp</h1>
+                            <p style="margin:0 12px;color:red" class="h3 py-2">@Model.SanPham.SpGia.ToString("#,##0") VNĐ</p>
+                        </div>
+                        <div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <h5 style="margin:0 12px;color:#000">Nhà cung cấp:</h5>
+                                </li>
+                                <li class="list-inline-item">
+                                    <p class="text-muted"><strong> @Model.SanPham.Ncc.NccTen</strong></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <h5 style="margin:0 12px;color:#000">Loại: </h5>
+                                </li>
+                                <li class="list-inline-item">
+                                    <p class="text-muted"><strong> @Model.SanPham.LIdNavigation.LTenloai</strong></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5 style="margin:0 12px;color:#000;">Mô tả:</h5>
+                            <p style="text-align: justify; padding:12px">@Model.SanPham.SpMota</p>
+                        </div>
+
+                        <form action="" method="GET">
+                            <input type="hidden" name="product-title" value="Activewear">
+                            <div>
+         
+                                    <ul class="list-inline pb-3">
+                                        <li class="list-inline-item">
+                                        <h5 style="margin:0 12px;color:#000;display:inline-block;">Số lượng:</h5>
+                                        <input type="number" min="1" name="txtsoLuong" id="txtsoLuong" value="1" style="width: 100px;padding: 2px;border-radius: 8px;border: 1px solid #ccc;" oninput="validity.valid||(value='1');">
+
+                                            @*<input data-mahh="@Model.SpId" data-dongia="@Model.SpGia" id="form1" min="0" name="quantity" value="@item.Soluong" type="number"
+                                                   class="form-control form-control-sm cartItem" style="width: 100px;" />*@
+                                        </li>
+                                        @*<li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
+                                        <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>*@
+                                    </ul>
+       
+                            </div>
+                            <div>
+                                <div class="col-md-12 row">
+                                    <button type="submit" class="btn btn-success btn-lg col-md-5" style="background: #1cc88a !important">Mua hàng</button>
+                                    <input hidden asp-for="SanPham.SpId" id="SpId" />
+                                    <button type="submit" class="btn btn-success btn-lg add-to-cart col-md-5" name="submit" style="background: #1cc88a !important" @*value="addtocard"*@>Thêm vào giỏ hàng</button>
+                                   @* <div class="col d-grid ">
+                                        
+                                    </div>*@
+
+                                </div>
+                                
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <a asp-action="Index" asp-controller="Shop" class="btn btn-light btn-icon-split">
+                    <span class="icon text-gray-600">
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                    <span class="text">Trở lại</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Close Content -->
+<!-- Start Article -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-left p-2 pb-3">
+            <h4>Sản phẩm liên quan</h4>
+        </div>
+
+        <!--Start Carousel Wrapper-->
+        <div id="carousel-related-product">
+            @if (lsSanpham != null)
+            {
+                @foreach(var item in lsSanpham)
+                {
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card rounded-0">
+                            @*<div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="/images/@item.SpHinhanh">
+                            </div>*@
+                            <div class="card rounded-0">
+                                <a asp-action="Details" asp-route-id="@item.SpId">
+                                <img class="card-img rounded-0 img-fluid" src="/images/@item.SpHinhanh">
+                                </a>
+                               @* <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-success text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" ><i class="far fa-eye"></i></a></li>
+
+                                        <li class="add-to-cart">
+                                            <input hidden asp-for="@item.SpId" />
+                                            <a class="btn btn-success text-white mt-2"><i class="fas fa-cart-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>*@
+                            </div>
+                            <div class="card-body" style="height:116px">
+                                <a class="h3 text-decoration-none">@item.SpTensp</a>
+                                <p class="text-center mb-0">@item.SpGia.ToString("#,##0") VNĐ</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+
+    </div>
+</section>
+
+<section class="py-5" style="background-color:#F8F9FC">
+    <div class="container">
+        <div class="row text-left p-2 pb-3">
+            <h4>Bình luận</h4>
+        </div>
+<div class="row d-flex justify-content-center">
+    <div class="col-md-12 col-lg-10">
+        @if (Model != null)
+        {
+            foreach (var item in Model.DanhGia)
+            {
+                <div class="card-body p-4">
+                    <div class="d-flex flex-start">
+                        <img class="rounded-circle shadow-1-strong me-3"
+                             src="~/images/@item.Nd.NdHinhanh" alt="avatar" width="60"
+                             height="60" />
+                        <div>
+                            <div class="fw-bold mb-1" style="display:inline-block; padding-right:24px">@item.Nd.NdHoten</div>
+                            <div id="reply" style="display:inline-block;">
+                                        <span class="material-symbols-outlined like" data-id="@item.DgId">
+                                            thumb_up
+                                        </span>
+                                        @if(item.DgThich != null)
+                                        {
+                                            <span class="material-symbols-outlined like">
+                                                <p>(@item.DgThich)</p>
+                                            </span>
+                                        }
+                                        <span class="material-symbols-outlined dislike" data-id="@item.DgId">
+                                            thumb_down
+                                        </span>
+                                        @if (item.DgKhongthich != null)
+                                        {
+                                            <span class="material-symbols-outlined like">
+                                                <p>(@item.DgKhongthich)</p>
+                                            </span>
+                                        }
+                                       @* <span class="material-symbols-outlined dislike">
+                                            @item.DgKhongthich
+                                        </span>*@
+                                        <span class="material-symbols-outlined reply subcomment" data-id="@item.DgId">
+                                            chat
+                                        </span>
+                            </div>
+                            <div class="align-items-center mb-3">
+                                
+                                        <div class="star isActive">
+                                            <span>
+                                                @for (var i = 1; i <= item.DgSao; i++)
+                                                {
+                                                    <i class="fa fa-star"></i>
+                                                }
+                                            </span>
+                                        </div>
+                                        <div></div>
+                                        <div class="mb-0">
+                                            @String.Format("{0:dd/MM/yyyy HH:mm}", item.DgNgay)
+                                        </div>
+                            </div>
+                            <p class="mb-0">
+                                @item.DgNoidung
+                            </p>
+                        </div>
+                    </div>
+                            <div class="sub-comment">
+                                @if (Model.Avatar != null)
+                                {
+                                    <div class="card-body p-4">
+                                        <div class="d-flex flex-start w-100">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                 src="/images/@Model.Avatar" alt="avatar" width="65"
+                                                 height="65" />
+                                            <div class="w-100">
+                                                <h5>
+                                                    Phản hồi
+                                                    <form id="commentForm" asp-controller="Shop" asp-action="CreateComment">
+                                                        <input hidden asp-for="SpId" value="@Model.SanPham.SpId" />
+                                                        @*<div id="rating">
+                                                            <span class="star" data-rating="1">&#9733;</span>
+                                                            <span class="star" data-rating="2">&#9733;</span>
+                                                            <span class="star" data-rating="3">&#9733;</span>
+                                                            <span class="star" data-rating="4">&#9733;</span>
+                                                            <span class="star" data-rating="5">&#9733;</span>
+                                                        </div>
+                                                    
+                                                        <input hidden asp-for="Diem" id="diem-input" />*@
+                                                        <div class="form-outline">
+                                                            <textarea asp-for="NoiDung" class="form-control" id="textAreaExample" rows="4"></textarea>
+                                                        </div>
+                                                        <div class="mt-3" style="float:inline-end">
+                                                            @*<button type="button" class="btn btn-success">Hủy</button>*@
+                                                            <button type="submit" class="btn btn-danger">
+                                                                Trả lời <i class="fas ms-1"></i>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                }
+                            </div>
+                </div>
+            }
+        }
+        @if (Model.Avatar != null)
+        {
+            <div class="card-body p-4">
+                <div class="d-flex flex-start w-100">
+                    <img class="rounded-circle shadow-1-strong me-3"
+                         src="/images/@Model.Avatar" alt="avatar" width="65"
+                         height="65" />
+                    <div class="w-100">
+                        <h5>
+                            Thêm bình luận
+                            <form id="commentForm" asp-controller="Shop" asp-action="CreateComment">
+                                <input hidden asp-for="SpId" value="@Model.SanPham.SpId" />
+                                <div id="rating">
+                                    <span class="star" data-rating="1">&#9733;</span>
+                                    <span class="star" data-rating="2">&#9733;</span>
+                                    <span class="star" data-rating="3">&#9733;</span>
+                                    <span class="star" data-rating="4">&#9733;</span>
+                                    <span class="star" data-rating="5">&#9733;</span>
+                                </div>
+                                      
+                                <input hidden asp-for="Diem" id="diem-input" />
+                                <div class="form-outline">
+                                    <textarea asp-for="NoiDung" class="form-control" id="textAreaExample" rows="4"></textarea>
+                                </div>
+                                <div class="mt-3" style="float:inline-end">
+                                            <button type="button" class="btn btn-outline-secondary">Hủy</button>
+                                            <button type="submit" class="btn btn-outline-success">
+                                        Gửi <i class="fas ms-1"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+        }
+        else{
+            <p>Đăng nhập để bình luận</p>
+        }
+
+    </div>
+</div>
+</div>
+</section>
+@section Scripts{
+    <script>
+        
+        $('#carousel-related-product').slick({
+            infinite: true,
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 3,
+            dots: true,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 3
+                }
+            }
+            ]
+        });
+
+
+
+        $(document).ready(function () {
+            $(function () {
+                $(".add-to-cart").click(function () {
+                    var productid = $('#SpId').val();
+                    var soLuong = $('#txtsoLuong').val();
+                    $.ajax({
+                        url: '/ShoppingCart/AddToCart',
+                        type: "POST",
+                        dataType: "JSON",
+                        data: {
+                            productID: productid,
+                            amount: soLuong
+                        },
+                        success: function (response) {
+                            if (response.result == 'Redirect') {
+                                window.location = response.url;
+                            }
+                            else {
+                                loadHeaderCart(); //Add Product success
+                                location.reload();
+                            }
+                            console.log(response); // log to the console to see whether it worked
+                        },
+                        error: function (error) {
+                            alert("There was an error posting the data to the server: " + error.responseText);
+                        }
+                    });
+                });
+
+             @*$(".removecart").click(function () {
+                var productid = $(this).attr("data-productid");
+                $.ajax({
+                url: "api/cart/remove",
+                type: "POST",
+                dataType: "JSON",
+                data: { productID: productid },
+                success: function (result) {
+                if (result.success) {
+                loadHeaderCart();//Reload lai gio hang
+                location.reload();
+                }
+                },
+                error: function (rs) {
+                alert("Remove Cart Error !")
+                }
+                });
+                });*@
+             });
+            function loadHeaderCart() {
+                $('#numberCart').load("/AjaxContent/NumberCart");
+            }
+
+            $('.star').on('click', function () {
+                const rating = $(this).data('rating');
+                highlightStars(rating);
+
+                // Gửi giá trị rating đến máy chủ hoặc thực hiện các thao tác khác ở đây
+            });
+
+            function highlightStars(rating) {
+                $('.star').removeClass('active');
+                $('.star').each(function () {
+                    const starRating = $(this).data('rating');
+                    if (starRating <= rating) {
+                        $(this).addClass('active');
+                        console.log($(this).attr("data-rating"));
+                        $('#diem-input').val($(this).attr("data-rating"));
+
+                    }
+                });
+            }
+
+            //kiem tra so luong muon mua và soluongton
+            $('#txtsoLuong').on('change', function(){
+                var soluongmoi = $(this).val();
+                 var productid = $('#SpId').val();
+                console.log("so luong ", soluongmoi)
+                $.ajax({
+                    type: "GET",
+                    url: '/Shop/CheckQuantity',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data:{
+                        soluongmoi : soluongmoi,
+                        productid : productid
+                    },
+                    success: function(data){
+                        console.log("vao đây", data)
+                        
+                        Swal.fire({
+                            title: 'Số lượng trong kho chỉ còn ' + data.product.spSoluongton + ' sản phẩm.',
+                            icon: 'info',
+                            confirmButtonText: 'Đóng'
+                        });
+                        $('#txtsoLuong').val(data.product.spSoluongton)
+                    },
+                    error: function(rs){
+                        
+                    },
+                })
+            });
+
+
+            //$('.like').on('click', function(){
+            //    const like = $(this).data('reply');
+            //    var dgId = $(this).data('id');
+            //    var currentComment = $(this);
+
+                
+
+            //    console.log("click nè", dgId)
+            //    $.ajax({
+            //        type:"GET",
+            //        url:'/Shop/ShowListComment',
+            //        contentType: "application/json; charset=utf-8",
+            //        dataType: "json",
+            //        success: function (data){
+            //            console.log("ds cmt", data)
+            //            for(let i = 0 ; i < data.dsComment.length; i++){
+            //                if(dgId == data.dsComment[i].dgId){
+            //                    console.log("chỉ bật cái này")
+            //                    if(currentComment.hasClass('likeActive')){
+            //                        currentComment.removeClass('likeActive')
+            //                    }
+            //                    else{
+            //                        currentComment.addClass('likeActive')
+            //                        currentComment.siblings('.dislike').removeClass('dislikeActive');
+            //                    }
+
+            //                    document.addEventListener("DOMContentLoaded", function () {
+            //                        const hubConnection = new signalR.HubConnectionBuilder()
+            //                            .withUrl("/NotificationHub") // Đường dẫn đến hub
+            //                            .build();
+
+            //                        hubConnection.start().then(function () {
+            //                            console.log("Kết nối thành công!");
+            //                        }).catch(function (err) {
+            //                            console.error(err.toString());
+            //                        });
+            //                        //currentComment.removeClass('dislikeActive')
+            //                        hubConnection.on("ReceiveMessage", function (user, message) {
+            //                            // Xử lý thông báo được nhận
+            //                            console.log(`Tin nhắn mới từ ${user}: ${message}`);
+            //                            // Cập nhật giao diện người dùng với thông báo mới
+            //                        });
+
+            //                    });
+                                
+                               
+            //                }
+            //            }
+            //        }
+            //    });
+            //})
+
+            
+         
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const hubConnection = new signalR.HubConnectionBuilder()
+                .withUrl("/NotificationHub") // Đường dẫn đến hub
+                .build();
+
+            hubConnection.start().then(function () {
+                console.log("Kết nối thành công!");
+            }).catch(function (err) {
+                console.error(err.toString());
+            });
+
+            $('.like').on('click', function () {
+                const like = $(this).data('reply');
+                var dgId = $(this).data('id');
+                var currentComment = $(this);
+
+                console.log("click nè", dgId);
+
+                $.ajax({
+                    type: "GET",
+                    url: '/Shop/ShowListComment',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        console.log("ds cmt", data);
+                        for (let i = 0; i < data.dsComment.length; i++) {
+                            if (dgId == data.dsComment[i].dgId) {
+                                console.log("chỉ bật cái này")
+                                if (currentComment.hasClass('likeActive')) {
+                                    currentComment.removeClass('likeActive');
+                                    var jsonData = JSON.stringify(dgId);
+                                    $.ajax({
+                                        type: "POST",
+                                        url: '/Shop/UnLikeComment',
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        data: jsonData,
+                                        success: function (data) {
+                                            console.log("comment", data);
+                                        }
+                                    });
+                                }
+                                else {
+                                    currentComment.addClass('likeActive');
+                                    currentComment.siblings('.dislike').removeClass('dislikeActive');
+                                    var jsonData = JSON.stringify(dgId);
+                                    $.ajax({
+                                        type: "POST",
+                                        url: '/Shop/LikeComment',
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        data: jsonData,
+                                        success: function (data) {
+                                            console.log("comment", data);
+                                        }
+                                    });
+                                }
+
+                            }
+                        }
+                        //for (let i = 0; i < data.dsComment.length; i++) {
+                        //    if (dgId == data.dsComment[i].dgId) {
+                        //        console.log("chỉ bật cái này");
+                        //        if (currentComment.hasClass('likeActive')) {
+                        //            currentComment.removeClass('likeActive');
+                        //        } else {
+                        //            currentComment.addClass('likeActive');
+                        //            currentComment.siblings('.dislike').removeClass('dislikeActive');
+                        //        }
+                        //    }
+                        //}
+                    }
+                });
+                hubConnection.on("SendNotification", function (user,message) {
+                    // Xử lý thông báo được nhận
+                    console.log(`Tin nhắn mới từ: ${user}`);
+                    // Cập nhật giao diện người dùng với thông báo mới
+                });
+            });
+            $('.dislike').on('click', function () {
+                const dislike = $(this).data('reply');
+                var dgId = $(this).data('id');
+                var currentComment = $(this);
+
+                console.log("click nè", dgId)
+                $.ajax({
+                    type: "GET",
+                    url: '/Shop/ShowListComment',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        console.log("ds cmt", data)
+                       
+                       
+                        for (let i = 0; i < data.dsComment.length; i++) {
+                            if (dgId == data.dsComment[i].dgId) {
+                                console.log("chỉ bật cái này")
+                                if (currentComment.hasClass('dislikeActive')) {
+                                    currentComment.removeClass('dislikeActive')
+                                    var jsonData = JSON.stringify(dgId);
+                                    $.ajax({
+                                        type: "POST",
+                                        url: '/Shop/UnDisLikeComment',
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        data: jsonData,
+                                        success: function (data) {
+                                            console.log("comment", data);
+                                        }
+                                    });
+                                }
+                                else {
+                                    currentComment.addClass('dislikeActive')
+                                    currentComment.siblings('.like').removeClass('likeActive');
+                                    var jsonData = JSON.stringify(dgId);
+                                    $.ajax({
+                                        type: "POST",
+                                        url: '/Shop/DisLikeComment',
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        data: jsonData,
+                                        success: function (data) {
+                                            console.log("comment", data);
+                                        }
+                                    });
+                                }
+
+                            }
+                        }
+                    }
+                });
+                 hubConnection.on("SendNotification", function (message) {
+                    // Xử lý thông báo được nhận
+                    console.log(`Tin nhắn mới từ: ${message}`);
+                    // Cập nhật giao diện người dùng với thông báo mới
+                });
+            })
+
+            $('.subcomment').on('click', function () {
+
+                var dgId = $(this).data('id');
+                $.ajax({
+                    type: "GET",
+                    url: '/Shop/ShowListComment',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        console.log("ds cmt", data)
+                        for (let i = 0; i < data.dsComment.length; i++) {
+                            if (dgId == data.dsComment[i].dgId) {
+                                $('.sub-comment').eq(i).css('display', 'block'); //
+                            }
+                        }
+                    }
+                });
+            });
+
+        });
+
+
+        //$('.like').on('click', function () {
+        //    const like = $(this).data('reply');
+        //    var dgId = $(this).data('id');
+        //    var currentComment = $(this);
+
+        //    console.log("click nè", dgId);
+
+        //    $.ajax({
+        //        type: "GET",
+        //        url: '/Shop/ShowListComment',
+        //        contentType: "application/json; charset=utf-8",
+        //        dataType: "json",
+        //        success: function (data) {
+        //            console.log("ds cmt", data);
+        //            for (let i = 0; i < data.dsComment.length; i++) {
+        //                if (dgId == data.dsComment[i].dgId) {
+        //                    console.log("chỉ bật cái này");
+        //                    if (currentComment.hasClass('likeActive')) {
+        //                        currentComment.removeClass('likeActive');
+        //                    } else {
+        //                        currentComment.addClass('likeActive');
+        //                        currentComment.siblings('.dislike').removeClass('dislikeActive');
+        //                    }
+        //                }
+        //            }
+        //        }
+        //    });
+        //});
+        //$('.dislike').on('click', function () {
+        //    const dislike = $(this).data('reply');
+        //    var dgId = $(this).data('id');
+        //    var currentComment = $(this);
+
+        //    console.log("click nè", dgId)
+        //    $.ajax({
+        //        type: "GET",
+        //        url: '/Shop/ShowListComment',
+        //        contentType: "application/json; charset=utf-8",
+        //        dataType: "json",
+        //        success: function (data) {
+        //            console.log("ds cmt", data)
+        //            for (let i = 0; i < data.dsComment.length; i++) {
+        //                if (dgId == data.dsComment[i].dgId) {
+        //                    console.log("chỉ bật cái này")
+        //                    if (currentComment.hasClass('dislikeActive')) {
+        //                        currentComment.removeClass('dislikeActive')
+        //                    }
+        //                    else {
+        //                        currentComment.addClass('dislikeActive')
+        //                        currentComment.siblings('.like').removeClass('likeActive');
+        //                    }
+
+        //                }
+        //            }
+        //        }
+        //    });
+        //})
+
+        //$('.subcomment').on('click', function () {
+
+        //    var dgId = $(this).data('id');
+        //    $.ajax({
+        //        type: "GET",
+        //        url: '/Shop/ShowListComment',
+        //        contentType: "application/json; charset=utf-8",
+        //        dataType: "json",
+        //        success: function (data) {
+        //            console.log("ds cmt", data)
+        //            for (let i = 0; i < data.dsComment.length; i++) {
+        //                if (dgId == data.dsComment[i].dgId) {
+        //                    $('.sub-comment').eq(i).css('display', 'block'); //
+        //                }
+        //            }
+        //        }
+        //    });
+        //});
+
+        
+            
+
+    </script>
+}
+
+<!-- End Article -->

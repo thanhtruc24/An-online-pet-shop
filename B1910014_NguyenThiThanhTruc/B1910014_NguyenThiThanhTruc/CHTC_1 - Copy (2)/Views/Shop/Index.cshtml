@@ -1,0 +1,154 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.SanPham>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+<div class="container py-5">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="/images/poster_sp3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/images/poster_sp4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/poster_sp2.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <div class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </div>
+            <div class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </div>
+        </div>
+<div class="container py-5">
+    <div class="row">
+
+        <div class="col-lg-12">
+            <div class="row" style="margin:36px 0;">
+                <div class="col-md-6">
+                    <div class="d-flex">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm" id="keyword" name="keyword">
+                    </div>
+                </div>
+                <div class="col-md-6 pb-4">
+                    <div class="d-flex">
+                            <select id="txtLoaiID" name="txtLoaiID" class="form-control" asp-items="@ViewBag.Loai" required>
+                                <option selected>Chọn loại</option>
+                                <option value="0">Chọn tất cả</option>
+                            </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="table">
+                @if(Model != null){
+                    @foreach(var item in Model)
+                    {
+                                @if(item.SpSoluongton != null && item.SpSoluongton > 0)
+                                {
+                                    <div class="col-md-3">
+                                        <div class="card mb-4 product-wap rounded-0">
+                                            <div class="card rounded-0">
+                                                <img class="card-img rounded-0 img-fluid" src="/images/@item.SpHinhanh" style="height:250px">
+                                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                                    <ul class="list-unstyled">
+                                                        @*<li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>*@
+                                                        <li><a class="btn btn-success text-white mt-2" asp-action="Details" asp-route-id="@item.SpId"><i class="far fa-eye"></i></a></li>
+
+                                                        @*<li class="add-to-cart">
+                                            <input hidden asp-for="@item.SpId"/>
+                                            <a class="btn btn-success text-white mt-2"><i class="fas fa-cart-plus"></i></a>
+                                            </li>*@
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card-body row" style="height:150px;">
+                                                <div class="h3" style="height:40px;color: #1cc88a;text-align: -webkit-center;">@item.SpTensp</div>
+                                                <div style="font-size: 16px !important;">
+                                                    Kho: @item.SpSoluongton sản phẩm
+                                                </div>
+                                                <p class="text-center mb-0" style="color:red">@item.SpGia.ToString("#,##0") VNĐ</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                               
+                    }
+                }
+               
+              
+            </div>
+            <div div="row">
+                    <div aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <pager class="pager-container" list="@Model" asp-controller="Shop" asp-action="Index" />
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+ </div>
+<!-- End Content -->
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            jQuery("#txtLoaiID").change(function () {
+                var loaiID = jQuery(this).children(":selected").attr("value");
+                loaiID = parseFloat(loaiID);
+                $('#txtLoaiID option')
+                    .removeAttr('selected');
+                $("#txtLoaiID > [value=" + loaiID + "]").attr("selected", "true");
+                $.ajax({
+                    url: '/Shop/Filtter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        LoaiID: loaiID
+                    },
+                    async: true,
+                    success: function (results) {
+                        if (results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $("#keyword").keyup(function () {
+                var strkeyword = $('#keyword').val();
+                $.ajax({
+                    url: '/Shop/FindProduct/',
+                    datatype: "json",
+                    type: "POST",
+                    data: { keyword: strkeyword },
+                    async: true,
+                    success: function (results) {
+                        $("#table").html("");
+                        $("#table").html(results);
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+        });
+
+
+        
+    </script>
+}
+

@@ -1,0 +1,84 @@
+﻿@model CHTC_1.Models.TaiKhoan
+
+@{
+    ViewData["Title"] = "ProfileCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="margin:24px">
+	@*<h1 style="text-align:center">Thông tin cá nhân</h1>*@
+	
+<div class="container">
+	<div class="row gutters">
+		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+			<div class="card" style="height:362px">
+				<div class="card-body">
+					<div class="account-settings">
+						<div class="user-profile">
+							<div class="user-avatar">
+								@*<img src="/images/@Model.Nd.NdHinhanh" alt="User Picture" style="width: -webkit-fill-available">*@
+								<img src="/images/@Model.Nd.NdHinhanh" alt="User Picture" style="width:200px; height:312px;" id="previewImage">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+			<div class="card h-100">
+				<div class="card-body">
+					<div class="row gutters">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<h6 class="mb-2 text-primary">Chi tiết</h6>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="fullName">Họ tên</label>
+								<div class="form-control">
+									@Html.DisplayFor(model => model.Nd.NdHoten)
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="eMail">Email</label>
+								<div class="form-control">
+									@Html.DisplayFor(model => model.TkEmail)
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="phone">Số điện thoại</label>
+								<div class="form-control">
+									@Html.DisplayFor(model => model.Nd.NdSdt)
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+							<div class="form-group">
+								<label for="website">Địa chỉ</label>
+								<div class="form-control" style="height:110px">
+									@Html.DisplayFor(model => model.Nd.NdDiachi)
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row gutters">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="text-right">
+								@*<button type="button" id="submit" name="submit" class="btn btn-secondary">Cancel</button>*@
+									<a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Trở lại</a>
+									<a asp-action="EditProfile" asp-route-id="@Model.NdId" class="btn" style="background:#1cc88a;color:#fff">Chỉnh sửa</a>
+								@*<button type="button" id="submit" name="submit" class="btn btn-primary">Update</button>*@
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>

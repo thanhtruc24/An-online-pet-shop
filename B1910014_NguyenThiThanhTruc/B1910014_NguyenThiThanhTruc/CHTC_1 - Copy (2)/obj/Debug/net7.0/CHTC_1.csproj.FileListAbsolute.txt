@@ -1,0 +1,1209 @@
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\appsettings.Development.json
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\appsettings.json
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\CHTC_1.staticwebassets.runtime.json
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\CHTC_1.exe
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\CHTC_1.deps.json
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\CHTC_1.runtimeconfig.json
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\CHTC_1.pdb
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Azure.Core.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Azure.Identity.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Humanizer.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Build.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.Common.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.Configuration.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.Frameworks.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.LibraryModel.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.Packaging.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.ProjectModel.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.Protocol.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\NuGet.Versioning.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.CodeDom.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Composition.Convention.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Composition.Hosting.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Composition.Runtime.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Composition.TypedParts.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Memory.Data.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.csproj.AssemblyReference.cache
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.AssemblyInfoInputs.cache
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.AssemblyInfo.cs
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.csproj.CoreCompileInputs.cache
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cs
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cache
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cache
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cs
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\staticwebassets\msbuild.CHTC_1.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\staticwebassets\msbuild.build.CHTC_1.props
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CHTC_1.props
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CHTC_1.props
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\staticwebassets.pack.json
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\staticwebassets.build.json
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\staticwebassets.development.json
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\scopedcss\bundle\CHTC_1.styles.css
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\scopedcss\projectbundle\CHTC_1.bundle.scp.css
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.csproj.CopyComplete
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\refint\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.pdb
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\CHTC_1.genruntimeconfig.cache
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\ref\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\PagedList.Core.dll
+F:\ASP.NET_MVC\CHTC_1\bin\Debug\net7.0\PagedList.Core.Mvc.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\appsettings.Development.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\appsettings.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.staticwebassets.runtime.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.exe
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.deps.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.runtimeconfig.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.pdb
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Azure.Core.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Azure.Identity.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Humanizer.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Build.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Common.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Configuration.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Frameworks.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.LibraryModel.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Packaging.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.ProjectModel.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Protocol.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Versioning.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\PagedList.Core.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\PagedList.Core.Mvc.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.CodeDom.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Convention.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Hosting.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Runtime.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.TypedParts.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Memory.Data.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.AssemblyReference.cache
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.AssemblyInfoInputs.cache
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.AssemblyInfo.cs
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.CoreCompileInputs.cache
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cs
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cache
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cache
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cs
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.CHTC_1.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.build.CHTC_1.props
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CHTC_1.props
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CHTC_1.props
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.pack.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.build.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.development.json
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\bundle\CHTC_1.styles.css
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\projectbundle\CHTC_1.bundle.scp.css
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.CopyComplete
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\refint\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.pdb
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.genruntimeconfig.cache
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\obj\Debug\net7.0\ref\CHTC_1.dll
+F:\ASP.NET_MVC\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\appsettings.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.staticwebassets.runtime.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.exe
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.deps.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.runtimeconfig.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.pdb
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Humanizer.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Build.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Common.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Configuration.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.LibraryModel.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Packaging.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.ProjectModel.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Protocol.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\PagedList.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\PagedList.Core.Mvc.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Convention.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Hosting.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Runtime.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.TypedParts.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.AssemblyReference.cache
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.AssemblyInfoInputs.cache
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.AssemblyInfo.cs
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.CoreCompileInputs.cache
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cache
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cs
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.CHTC_1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.build.CHTC_1.props
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CHTC_1.props
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CHTC_1.props
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\bundle\CHTC_1.styles.css
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\projectbundle\CHTC_1.bundle.scp.css
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.CopyComplete
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\refint\CHTC_1.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.pdb
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.genruntimeconfig.cache
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\ref\CHTC_1.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\FluentEmail.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\FluentEmail.Smtp.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.DynamicLinq.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Caching.SqlServer.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\OpenIddict.Abstractions.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.AspNetCore.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.Common.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.Model.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Payment.VnPay.AspNetCore.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Payment.VnPay.Common.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Payment.VnPay.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\TimeZoneConverter.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\VNPayPackage.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\MailKit.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Common.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Dns.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Groupware.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Imap4.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Mail.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Nntp.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.OpenPGP.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Pop3.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.Smtp.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ActiveUp.Net.WhoIs.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\MimeKit.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\libman.json
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Gravatar.dll
+C:\Users\HAPPY\Downloads\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\appsettings.Development.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\appsettings.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\libman.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.staticwebassets.runtime.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.exe
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.deps.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.runtimeconfig.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\CHTC_1.pdb
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.Views.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\AspNetCoreHero.ToastNotification.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Azure.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Azure.Identity.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\FluentEmail.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\FluentEmail.Smtp.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Gravatar.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Humanizer.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\MailKit.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Build.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.DynamicLinq.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Caching.SqlServer.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\MimeKit.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Common.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Configuration.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Frameworks.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.LibraryModel.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Packaging.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.ProjectModel.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Protocol.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\NuGet.Versioning.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\OpenIddict.Abstractions.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\PagedList.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\PagedList.Core.Mvc.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.AspNetCore.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.Common.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Base.Model.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Payment.VnPay.AspNetCore.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Payment.VnPay.Common.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Sek.Module.Payment.VnPay.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.CodeDom.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Convention.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Hosting.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.Runtime.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Composition.TypedParts.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Memory.Data.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\TimeZoneConverter.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\VNPayPackage.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.AssemblyReference.cache
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.AssemblyInfoInputs.cache
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.AssemblyInfo.cs
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.CoreCompileInputs.cache
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cs
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.MvcApplicationPartsAssemblyInfo.cache
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cache
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.RazorAssemblyInfo.cs
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.CHTC_1.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.build.CHTC_1.props
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CHTC_1.props
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CHTC_1.props
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.build.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\staticwebassets.development.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\bundle\CHTC_1.styles.css
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\scopedcss\projectbundle\CHTC_1.bundle.scp.css
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.csproj.CopyComplete
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\refint\CHTC_1.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.pdb
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\CHTC_1.genruntimeconfig.cache
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\obj\Debug\net7.0\ref\CHTC_1.dll
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\package-lock.json
+F:\Luanvan2810\B1910014_NguyenThiThanhTruc\B1910014_NguyenThiThanhTruc\CHTC_1 - Copy (2)\bin\Debug\net7.0\package.json

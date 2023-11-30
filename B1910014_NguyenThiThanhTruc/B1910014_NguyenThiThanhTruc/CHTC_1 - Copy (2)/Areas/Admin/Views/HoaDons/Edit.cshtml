@@ -1,0 +1,53 @@
+﻿@model CHTC_1.Models.HoaDon
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin-left:24px">
+<h1 style="text-align:center">Chỉnh sửa hoá đơn</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="HdId" />
+            <div class="form-group">
+                    <label asp-for="PtttId" class="control-label">Phương thức thanh toán</label>
+                    <input asp-for="PtttId" readonly="readonly" class="form-control" />
+                    <span asp-validation-for="PtttId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <label asp-for="NdId" class="control-label">Người dùng</label>
+                    <input asp-for="NdId" readonly="readonly" class="form-control" />
+                    <span asp-validation-for="NdId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TthdId" class="control-label">Trạng thái hoá đơn</label>
+                <select asp-for="TthdId" class="form-control" asp-items="@ViewBag.TrangThai">
+                </select>
+                <span asp-validation-for="TthdId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HdTongtien" class="control-label">Tổng tiền</label>
+                <input asp-for="HdTongtien" readonly="readonly" class="form-control" />
+                <span asp-validation-for="HdTongtien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HdNgay" class="control-label">Ngày đặt</label>
+                <input asp-for="HdNgay" readonly="readonly" class="form-control" />
+                <span asp-validation-for="HdNgay" class="text-danger"></span>
+            </div>
+                <div class="form-group text-center">
+                    <input type="submit" value="Lưu" class="btn btn-outline-success" />
+                    <a asp-action="Index" class="btn btn-outline-secondary">Trở lại</a>
+                </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

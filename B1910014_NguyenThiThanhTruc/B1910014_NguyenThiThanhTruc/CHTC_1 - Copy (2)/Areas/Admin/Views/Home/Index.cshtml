@@ -1,0 +1,536 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var thongke = ViewBag.thongkesp;
+    var dondat = ViewBag.dondat;
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    @*<div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800" sy>Trang chủ</h1>
+        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+    </div>*@
+
+    <!-- Content Row -->
+    <div class="row">
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Sản phẩm
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@thongke</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Đơn đặt trong ngày
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@dondat</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        @*<div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                Đơn hàng cần duyệt
+                            </div>
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-auto">
+                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+        <!-- Pending Requests Card Example -->
+      @*  <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                 
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+
+    @*<canvas id="myChart" width="400" height="200"></canvas>*@
+     <div class="container">
+        <div>
+            
+            <div class="row" style="padding-bottom: 24px;">   
+                <div class="col-md-5 shadow" style="padding:12px;">
+                    <h3 style="text-align:center;padding:24px; border-bottom:solid 1px #ccc;">Top sản phẩm bán chạy nhất</h3>
+                    <canvas id="productChart" width="100%" height="auto"></canvas>
+                </div>
+                <div class="col-md-5 shadow" style="padding:12px;">
+                        <h3 style="text-align:center;padding:24px; border-bottom:solid 1px #ccc;">Top thương hiệu được ưa thích</h3>
+                    <canvas id="supplierChart" width="100%" height="auto"></canvas>
+                </div>
+            </div>
+            <div class="row shadow" style="padding:12px; margin: 0 34px">
+                <div class="col-md-10">
+                    <h3 style="text-align:center;padding:24px">Thống kê đơn hàng</h3>
+                    <select id="timeselected" name="timeselected" class="form-control" required>
+                        <option selected value="1">Tuần</option>
+                        <option value="2">Tháng</option>
+                        <option value="3">Quý</option>
+                    </select>
+                    <canvas id="orderChart" width="400" height="200"></canvas>
+            </div>
+                </div>
+                
+        </div>
+     
+       
+    </div>
+   
+</div>
+@section Scripts{
+    <script>
+        //document.addEventListener("DOMContentLoaded", function () {
+        //    const hubConnection = new signalR.HubConnectionBuilder()
+        //        .withUrl("/NotificationHub")
+        //        .build();
+
+        //    hubConnection.start().then(function () {
+        //        console.log("Kết nối thành công!");
+        //        var count = 0;
+        //        $('#icon').click(function(){
+        //            var idpopover = $('#popover').data('id')
+        //            console.log("vào")
+        //            if($('#popover').css('display') == "block"){
+        //                $('#popover').css('display','none');
+                        
+        //            }
+        //            else{
+        //                $('#popover').css('display', 'block');
+        //                $('#popover').css('max-height', '435px');
+                       
+        //            }
+        //        });
+        //        hubConnection.on("SendMessage", function (user,message) {
+        //            console.log("đêm", count)
+        //            // Xử lý thông báo khi đặt hàng thành công
+        //            if(count == 0){
+        //                 count = 1;
+        //                 //console.log(message + user);
+        //                 //console.log("so luong", count); 
+        //            }
+        //            else{
+        //                count++;
+        //                //console.log(message + user);
+        //                // console.log("so luong", count); 
+        //            }
+        //            var jsonData = JSON.stringify(user);
+        //            //console.log("data", jsonData);
+        //            $.ajax({
+        //                type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+        //                url: '/Admin/ThongBaos/CheckoutNotification', // URL của endpoint trên server
+        //                contentType: "application/json; charset=utf-8",
+        //                dataType: "json",
+        //                data: jsonData,
+        //                success:function(data){
+        //                    //console.log("thong bao", data.dsthongbao);
+        //                    var notificationContainer = document.getElementById("popover");
+        //                    $("#popover").empty();
+        //                   for (let i = 0; i < data.dsthongbao.length; i++) {
+        //                    var title = data.dsthongbao[i].tbTieude;
+        //                    var content = data.dsthongbao[i].tbNoidung;
+
+        //                    var formattedTime = moment(data.dsthongbao[i].tbThoigian).format('DD/MM/YYYY HH:mm');
+        //                    var time = formattedTime;
+        //                    var avt = data.dsthongbao[i].tbAvt;
+        //                    console.log("format time", time)
+
+        //                    // Tạo phần tử thông báo
+        //                    var notificationElement = document.createElement("div");
+        //                    notificationElement.className = "popover-container";
+        //                    var container = document.createElement("div");
+        //                    container.style.maxHeight = "435px"; // Đặt chiều cao tối đa cho phần tử cha
+        //                    container.style.overflow = "auto"; // Tạo thanh cuộn khi cần
+        //                    container.appendChild(notificationElement);
+        //                        if(data.dsthongbao[i].TbTrangthai == 0){
+        //                        var innerHtml = `
+                               
+        //                                                        <img class="rounded-circle shadow-1-strong me-3" src="/images/${avt}" id="avt-noti" width="40" height="40" />
+        //                                                        <div style="width:300px">
+        //                                                            <div class="title-noti noti">${title}</div>
+        //                                                            <div class="content-noti noti">${content}</div>
+        //                                                            <div class="time-noti noti">${time}</div>
+        //                                                        </div>
+        //                                                        <span class="material-symbols-outlined status-noti bg-info bg-gradient">
+        //                                                            radio_button_unchecked
+        //                                                        </span>
+
+        //                                                `;
+
+        //                                notificationElement.innerHTML = innerHtml;
+
+        //                                // Thêm phần tử thông báo vào container
+        //                                notificationContainer.appendChild(notificationElement);
+        //                        }
+        //                        else{
+        //                        var innerHtml = `
+
+        //                                                        <img class="rounded-circle shadow-1-strong me-3" src="/images/${avt}" id="avt-noti" width="40" height="40" />
+        //                                                        <div style="width:300px">
+        //                                                            <div class="title-noti noti">${title}</div>
+        //                                                            <div class="content-noti noti">${content}</div>
+        //                                                            <div class="time-noti noti">${time}</div>
+        //                                                        </div>
+        //                                                        <span class="material-symbols-outlined status-noti bg-gradient">
+        //                                                            radio_button_unchecked
+        //                                                        </span>
+
+        //                                                `;
+
+        //                                notificationElement.innerHTML = innerHtml;
+
+        //                                // Thêm phần tử thông báo vào container
+        //                                notificationContainer.appendChild(notificationElement);
+        //                        }
+                            
+
+                           
+
+        //                        //console.log("tieu de", data.dsthongbao[i])
+        //                        //$('.title-noti').text(data.dsthongbao[i].tbTieude);
+        //                        //$('.content-noti').text(data.dsthongbao[i].tbNoidung);
+        //                        //$('.time-noti').text(data.dsthongbao[i].tbThoigian);
+        //                    }
+        //                    $('#countnotifications').text(data.count);
+        //                }
+        //            })
+                   
+        //        });
+        //    }).catch(function (err) {
+        //        console.error(err.toString());
+        //    });
+
+        //    //đếm lại thông báo
+            
+        //    $(function(){
+        //        var count = 0;
+        //        $.ajax({
+        //            url: '/Admin/Home/CountNotification',
+        //            method: 'GET',
+        //            success: function(data){
+        //                console.log(data)
+                        
+        //                $('#countnotifications').text(data.count);
+        //            }
+        //        });
+        //    });
+            
+        //    //đã xem thông báo
+        //$('#icon').click(function () {
+        //    $.ajax({
+        //        url: '/Admin/Home/SetStatus',
+        //        method: 'GET',
+        //        success: function(data){
+        //                var notificationContainer = document.getElementById("popover");
+        //                $("#popover").empty();
+        //                for (let i = 0; i < data.aftersetstatus.length; i++) {
+        //                var title = data.aftersetstatus[i].tbTieude;
+        //                var content = data.aftersetstatus[i].tbNoidung;
+        //                //var time = data.aftersetstatus[i].tbThoigian;
+        //                var avt = data.aftersetstatus[i].tbAvt;
+        //                var formattedTime = moment(data.aftersetstatus[i].tbThoigian).format('DD/MM/YYYY HH:mm');
+        //                var time = formattedTime;
+                        
+        //                console.log("format time", time)
+        //                // Tạo phần tử thông báo
+        //                var notificationElement = document.createElement("div");
+        //                notificationElement.className = "popover-container";
+        //                var container = document.createElement("div");
+        //                container.style.maxHeight = "435px"; // Đặt chiều cao tối đa cho phần tử cha
+        //                container.style.overflow = "auto"; // Tạo thanh cuộn khi cần
+        //                container.appendChild(notificationElement);
+        //                    if(data.aftersetstatus[i].TbTrangthai == 0){
+        //                    var innerHtml = `
+
+        //                                                    <img class="rounded-circle shadow-1-strong me-3" src="/images/${avt}" id="avt-noti" width="40" height="40" />
+        //                                                    <div style="width:300px">
+        //                                                        <div class="title-noti noti">${title}</div>
+        //                                                        <div class="content-noti noti">${content}</div>
+        //                                                        <div class="time-noti noti">${time}</div>
+        //                                                    </div>
+        //                                                    <span class="material-symbols-outlined status-noti bg-info bg-gradient">
+        //                                                        radio_button_unchecked
+        //                                                    </span>
+
+        //                                            `;
+
+        //                            notificationElement.innerHTML = innerHtml;
+
+        //                            // Thêm phần tử thông báo vào container
+        //                            notificationContainer.appendChild(notificationElement);
+        //                    }
+        //                    else{
+        //                    var innerHtml = `
+
+        //                                                    <img class="rounded-circle shadow-1-strong me-3" src="/images/${avt}" id="avt-noti" width="40" height="40" />
+        //                                                    <div style="width:300px">
+        //                                                        <div class="title-noti noti">${title}</div>
+        //                                                        <div class="content-noti noti">${content}</div>
+        //                                                        <div class="time-noti noti">${time}</div>
+        //                                                    </div>
+        //                                                    <span class="material-symbols-outlined status-noti bg-gradient">
+        //                                                        radio_button_unchecked
+        //                                                    </span>
+
+        //                                            `;
+
+        //                            notificationElement.innerHTML = innerHtml;
+
+        //                            // Thêm phần tử thông báo vào container
+        //                            notificationContainer.appendChild(notificationElement);
+        //                    }
+                            
+
+                           
+
+        //                    //console.log("tieu de", data.dsthongbao[i])
+        //                    //$('.title-noti').text(data.dsthongbao[i].tbTieude);
+        //                    //$('.content-noti').text(data.dsthongbao[i].tbNoidung);
+        //                    //$('.time-noti').text(data.dsthongbao[i].tbThoigian);
+        //                }
+        //                console.log(data.aftersetstatus)
+        //                count = 0;
+        //                console.log("đang mở")
+        //                $('#countnotifications').text(count);
+        //        }
+        //    });
+            
+
+        //});
+
+
+
+            // Định nghĩa dữ liệu sản phẩm và số lượng bán được (điều này cần phải được lấy từ cơ sở dữ liệu hoặc nguồn dữ liệu khác)
+            //tự thêm màu tự động vào biểu đồ
+            function createColor(count) {
+                var colors = [];
+                for (var i = 0; i < count; i++) {
+                    var r = Math.floor(Math.random() * 256);
+                    var g = Math.floor(Math.random() * 256);
+                    var b = Math.floor(Math.random() * 256);
+                    var color = 'rgba(' + r + ', ' + g + ', ' + b + ', 0.2)';
+                    colors.push(color);
+                }
+                return colors;
+            }
+            //lấy top sản phấm bán chạy
+           $(function () {
+                $.ajax({
+                    url: '/Admin/Home/GetTopSellingProducts',
+                    method: 'GET',
+                    success: function (data) {
+                        //console.log(data)
+                        var colors = createColor(data.length);
+                        var ctx = document.getElementById('productChart').getContext('2d');
+                        var chart = new Chart(ctx, {
+                            type: 'pie',
+                            data: {
+                                labels: data.map(m => m.spten),
+                                datasets: [{
+                                    label: 'Top sản phẩm bán chạy',
+                                    data: data.map(m => m.soluongban),
+                                    backgroundColor: colors,
+                                    borderColor: 'rgba(75, 192, 192, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                cutoutPercentage: 50,
+                                plugins: {
+                                    legend: {
+                                        position: 'top' // Thay đổi vị trí của label
+                                    }
+                                }
+                            }
+                        });
+                    }
+                });
+            });
+            // lấy thương hiệu được ưu thích
+             $(function () {
+                $.ajax({
+                    url: '/Admin/Home/GetTopSupplier',
+                    method: 'GET',
+                    success: function (data) {
+                        //console.log(data)
+                        var colors = createColor(data.length);
+                        var ctx = document.getElementById('supplierChart').getContext('2d');
+                        var chart = new Chart(ctx, {
+                            type: 'doughnut',
+                            data: {
+                                labels: data.map(m => m.ncc),
+                                datasets: [{
+                                    label: 'Top thương hiệu được ưa thích nhất',
+                                    data: data.map(m => m.soluongban),
+                                    backgroundColor: colors,
+                                    borderColor: 'rgba(75, 192, 192, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                cutoutPercentage: 50,
+                                plugins: {
+                                    legend: {
+                                        position: 'top' // Thay đổi vị trí của label
+                                    }
+                                }
+                            }
+                        });
+                    }
+                });
+            });
+            //thống kê hóa đơn
+            $(document).ready(function () {
+                var selectedValue = $('#timeselected').val();
+                //console.log(selectedValue);
+                $.ajax({
+                    url: '/Admin/Home/ShowOrder',
+                    datatype: "json",
+                    type: "post",
+                    data: {
+                        time: selectedValue
+                    },
+                    async: true,
+                    success: function (data) {
+                        console.log(data)
+                        const entries = Object.entries(data);
+                        const keys = entries.map(([key, value]) => key);
+                        const values = entries.map(([key, value]) => value);
+                        //for (const [key, value] of entries) {
+                        //  console.log(`Key: ${key}, Value: ${value}`);
+                        //}
+                        
+                        var colors = createColor(data.length);
+                        var ctx = document.getElementById('orderChart').getContext('2d');
+                        var chart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: keys,
+                                datasets: [{
+                                    label: 'Thống kê đơn hàng',
+                                    data: values,
+                                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                    borderColor: 'rgba(75, 192, 192, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+                    }
+                });
+                $('#timeselected').change(function () {
+                    selectedValue = $('#timeselected').val();
+                    var existingChart = Chart.getChart('orderChart');
+                    if (existingChart) {
+                        existingChart.destroy();
+                    }
+                        $.ajax({
+                        url: '/Admin/Home/ShowOrder',
+                        datatype: "json",
+                        type: "post",
+                        data: {
+                            time: selectedValue
+                        },
+                        async: true,
+                        success: function (data) {
+                            
+                            const entries = Object.entries(data);
+                            const keys = entries.map(([key, value]) => key);
+                            const values = entries.map(([key, value]) => value);
+                            //for (const [key, value] of entries) {
+                            //  console.log(`Key: ${key}, Value: ${value}`);
+                            //}
+                        
+                            var colors = createColor(data.length);
+                            var ctx = document.getElementById('orderChart').getContext('2d');
+                            var chart = new Chart(ctx, {
+                                type: 'bar',
+                                data: {
+                                    labels: keys,
+                                    datasets: [{
+                                        label: 'đơn hàng',
+                                        data: values,
+                                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                        borderColor: 'rgba(75, 192, 192, 1)',
+                                        borderWidth: 1
+                                    }]
+                                },
+                                options: {
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+            });
+
+    </script>
+
+}
+

@@ -1,0 +1,64 @@
+﻿@model CHTC_1.Models.SanPham
+
+@{
+    ViewData["Title"] = "Xoá sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div>
+
+   
+<div style="text-align:center">
+     <h3>Bạn chắc chắn muốn xoá sản phẩm này?</h3>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Tên sản phẩm:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpTensp)
+        </dd>
+        <dt class = "col-sm-2">
+            Giá:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpGia)
+        </dd>
+       @* <dt class = "col-sm-2">
+            Số lượng:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpSoluong)
+        </dd>*@
+        <dt class = "col-sm-2">
+            Mô tả:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpMota)
+        </dd>
+        <dt class = "col-sm-2">
+            Hình ảnh:
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="/images/@Model.SpHinhanh" width="200px" height="160px" />
+        </dd>
+        <dt class = "col-sm-2">
+            Loại:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LIdNavigation.LTenloai)
+        </dd>
+        <dt class = "col-sm-2">
+            Nhà cung cấp:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ncc.NccTen)
+        </dd>
+    </dl>
+
+        <form asp-action="Delete">
+        <input type="hidden" asp-for="SpId" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+            <a class="btn" style="background-color:rgb(9, 122, 60);color:antiquewhite" asp-action="Index">Trở lại</a>
+    </form>
+</div>
+</div>

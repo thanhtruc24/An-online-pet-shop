@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<CHTC_1.ModelViews.CartItem>
+@if(Model != null && Model.Count() > 0)
+{
+    <a class="nav-icon position-relative text-decoration-none" asp-controller="ShoppingCart" asp-action="Index">
+        <span class="material-symbols-outlined">
+            shopping_cart
+        </span>
+        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill" id="numberCart" style="background-color:red!important; color: #fff!important">
+            @Model.Count()
+        </span>
+    </a>
+}
+else
+{
+    <a class="nav-icon position-relative text-decoration-none">
+        <span class="material-symbols-outlined">
+            shopping_cart
+        </span>
+        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill" id="numberCart" style="background-color:red!important; color: #fff!important">
+            0
+        </span>
+    </a>
+}

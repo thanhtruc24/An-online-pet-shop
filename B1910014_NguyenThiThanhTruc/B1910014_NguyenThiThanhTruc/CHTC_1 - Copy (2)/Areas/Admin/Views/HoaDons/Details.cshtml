@@ -1,0 +1,94 @@
+﻿@model CHTC_1.Models.HoaDon
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    List<ChiTietHoaDon> chitiethoadon = ViewBag.ChiTiet;
+}
+
+
+<div style="margin-left:24px;text-align:center">
+    <h1>Chi tiết hoá đơn</h1>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Tổng tiền:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.HdTongtien.ToString("#,##0") VNĐ
+        </dd>
+        <dt class="col-sm-2">
+            Ngày đặt:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HdNgay)
+        </dd>
+        <dt class="col-sm-2">
+            Người đặt:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nd.NdHoten)
+        </dd>
+        <dt class="col-sm-2">
+            Phương thức thanh toán: 
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pttt.PtttTen)
+        </dd>
+        <dt class="col-sm-2">
+            Trạng thái hoá đơn:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tthd.TthdTrangthai)
+        </dd>
+    </dl>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Hình ảnh
+                </th>
+                <th>
+                    Tên sản phẩm
+                </th>
+                <th>
+                    Giá
+                </th>
+                <th>
+                    Số lượng
+                </th>
+            </tr>
+        </thead>
+        <tbody id="table">
+            @if (chitiethoadon != null && chitiethoadon.Count() > 0)
+            {
+                @foreach (var item in chitiethoadon)
+                {
+                    <tr>
+                        <td>
+                            <img src="/images/@item.Sp.SpHinhanh" height="80px" width="100px">
+                        </td>
+                        <td style="width:200px">
+                            @Html.DisplayFor(modelItem => item.Sp.SpTensp)
+                        </td>
+                        <td>
+                            @item.Sp.SpGia.ToString("#,##0") VNĐ
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CthdSoluong)
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+
+
+
+    <div>
+        @*<a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.HdId">Chỉnh sửa</a> |*@
+        <a class="btn btn-outline-secondary" style="background-color:rgb(9, 122, 60);color:antiquewhite" asp-action="Index">Trở lại</a>
+    </div>
+</div>

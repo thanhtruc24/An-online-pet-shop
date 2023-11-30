@@ -1,0 +1,9 @@
+﻿.crudicon{
+	text-decoration:none!important;
+	color: #858796;
+}
+
+	.crudicon:hover {
+		color: #1cc88a;
+		cursor:pointer;
+	}

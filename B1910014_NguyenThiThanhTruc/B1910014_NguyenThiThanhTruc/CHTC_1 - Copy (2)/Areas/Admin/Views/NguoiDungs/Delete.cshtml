@@ -1,0 +1,50 @@
+﻿@model CHTC_1.Models.TaiKhoan
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div style="margin-left:24px;text-align:center">
+    <h3>Bạn chắc chắn muốn xoá tài khoản?</h3>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+           Họ tên:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nd.NdHoten)
+        </dd>
+        <dt class = "col-sm-2">
+            Ảnh đại diện:
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="/images/@Model.Nd.NdHinhanh" height="80px" width="100px" style="border-radius:20px">
+        </dd>
+        <dt class = "col-sm-2">
+            Email:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TkEmail)
+        </dd>
+        <dt class = "col-sm-2">
+           Mật khẩu:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TkMatkhau)
+        </dd>
+        <dt class = "col-sm-2">
+            Quyền sử dụng:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Vt.VtTenvaitro)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="NdId" />
+        <input type="submit" value="Xoá" class="btn btn-danger" /> |
+        <a class="btn" style="background-color:rgb(9, 122, 60);color:antiquewhite" asp-action="Index">Trở lại</a>
+    </form>
+</div>

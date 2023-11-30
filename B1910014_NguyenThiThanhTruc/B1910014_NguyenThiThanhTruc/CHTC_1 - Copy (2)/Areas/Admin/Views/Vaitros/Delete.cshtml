@@ -1,0 +1,27 @@
+﻿@model CHTC_1.Models.VaiTro
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="text-align:center">
+<h3>Bạn chắc chắn muốn xoá?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Tên vai trò:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VtTenvaitro)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="VtId" />
+        <input type="submit" value="Xoá" class="btn btn-outline-danger" /> 
+            <a class="btn btn-outline-secondary" style="background-color:rgb(9, 122, 60);color:antiquewhite" asp-action="Index">Trở lại</a>
+    </form>
+</div>
+</div>
+

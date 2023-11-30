@@ -1,0 +1,343 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.HoaDon>
+
+@{
+    ViewData["Title"] = "Danh sách đặt hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin:24px;">
+    <h1 style="text-align:center">Danh sách phiếu đặt</h1>
+    <div style="padding: 24px;">
+        <div style="display:inline-block;margin-right:20px">
+            <a asp-action="Create" class="btn btn-outline-info">
+                Thêm mới
+            </a>
+        </div>
+        <div style="display:inline-block">
+            <a class="btn btn-outline-danger btn-deletemany" @* data-toggle="modal" data-target="DeleteManyModal"*@>
+                Xóa nhiều
+            </a>
+        </div>
+    </div>
+    @*<p>
+        <a asp-action="Create" class="btn btn-info btn-lg">
+            Thêm mới
+        </a>
+    </p>*@
+
+   @* <div class="form-group" style="width:180px!important" >
+        <label class="control-label"></label>
+        <select id="StatusID" name="StatusID" class="form-control" asp-items="@ViewBag.TrangThai" required>
+            <option value="0" disabled selected>Chọn trạng thái</option>
+        </select>
+    </div>*@
+   
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <input type="checkbox" name="checkall" id="checkall">
+            </th>
+            <th>
+                Tổng tiền
+            </th>
+            <th>
+                Ngày đặt
+            </th>
+            <th>
+                Khách hàng
+            </th>
+            <th>
+                Phương thức thanh toán
+            </th>
+            <th>
+                Trạng thái
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <input type="checkbox" name="checkbox" data-id="@item.HdId">
+            </td>
+            <td>
+                @item.HdTongtien.ToString("#,##0") VNĐ
+            </td>
+            <td>
+                        @String.Format("{0:dd/MM/yyyy HH:mm:ss}", item.HdNgay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nd.NdHoten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pttt.PtttTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tthd.TthdTrangthai)
+            </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.HdId" class="crudicon">
+                            <span class="material-symbols-outlined">
+                                edit_square
+                            </span>
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.HdId" class="crudicon">
+                            <span class="material-symbols-outlined">
+                                visibility
+                            </span>
+                        </a>
+                        <a data-id="@item.HdId" class="crudicon btn-detele-pro">
+                            <span class="material-symbols-outlined">
+                                delete
+                            </span>
+                        </a>
+                    </td>
+                   
+        </tr>
+}
+    </tbody>
+</table>
+<div aria-label="Page navigation example">
+    <ul class="pagination">
+        <pager class="pager-container" list="@Model" asp-area="Admin" asp-controller="HoaDons" asp-action="Index" />
+    </ul>
+</div>
+</div>
+
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            var hoadonIds = [];
+            // click checkall
+            $('#checkall').click(function () {
+                var checkAllChecked = $(this).prop('checked');
+                $('input[name="checkbox"]').prop('checked', checkAllChecked);
+                //console.log(checkAllChecked);
+                if (checkAllChecked) {
+                    hoadonIds = [];
+                    $('input[name="checkbox"]:checked').each(function () {
+                        hoadonIds.push($(this).data('id'));
+                    });
+                }
+                else {
+                    let i = 0;
+                    while (i < hoadonIds.length) {
+                        console.log(hoadonIds[i]);
+                        hoadonIds.splice(i, 1);
+                    }
+                }
+                console.log("ds cc", hoadonIds)
+            });
+
+            // check từng cái
+            $('input[name="checkbox"]').click(function () {
+                if (this.checked) {
+                    var hoadonId = $(this).data('id');
+                    hoadonIds.push(hoadonId)
+                    var jsonData = JSON.stringify(hoadonIds);
+                }
+                else {
+                    //console.log("id da bo", $(this).data('id'));
+                    const checkall = document.getElementById("checkall");
+                    checkall.checked = false;
+
+                    for (let i = 0; i < hoadonIds.length; i++) {
+                        if (hoadonIds[i] == $(this).data('id'))
+                            hoadonIds.splice(i, 1)
+                    }
+                    //console.log("bo check", productIds)
+                }
+                console.log("ds cc", hoadonIds)
+            });
+
+            //xóa nhiều
+            $('.btn-deletemany').click(function () {
+                if (hoadonIds.length > 0) {
+                    // Truyền mảng productIds lên server bằng AJAX và xử lý xóa nhiều.
+                    var jsonData = JSON.stringify(hoadonIds);
+                    console.log("dl truyen di", hoadonIds)
+                    $.ajax({
+                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                        url: '/Admin/HoaDons/DeleteMany', // URL của endpoint trên server
+                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (data) {
+                            console.log("Thành công gửi dữ liệu lên server.");
+                            console.log("data", data.hoadons);
+
+                            var tableProducts = '<table style="border-collapse: collapse;width:-webkit-fill-available;">' +
+                                '<thead>' +
+                                '<tr>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Tổng tiền</th>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Ngày đặt</th>' +
+                                //'<th style="border: 1px solid #ddd;text-align:center">Khách hàng</th>' +
+                                //'<th style="border: 1px solid #ddd;text-align:center">Phương thức thanh toán</th>' +
+                                '</tr>' +
+                                '</thead>' +
+                                '<tbody>';
+
+                            for (var i = 0; i < data.hoadons.length; i++) {
+                                var hoadon = data.hoadons[i];
+                                var formattedTime = moment(data.hoadons[i].hdNgay).format('DD/MM/YYYY HH:mm');
+                                var time = formattedTime;
+                                tableProducts += '<tr>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + data.hoadons[i].hdTongtien.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</td>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + time + '</td>' +
+                                    //'<td style="border: 1px solid #ddd;text-align:center">' + product.spSoluong + '</td>' +
+                                    '</tr>';
+                            }
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Bạn có muốn xóa các hóa đơn đã chọn',
+                                html: tableProducts,
+                                confirmButtonText: 'Xóa',
+                                showCancelButton: true
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    var jsonData = JSON.stringify(hoadonIds);
+                                    $.ajax({
+                                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                        url: '/Admin/HoaDons/DeleteManyConfirm', // URL của endpoint trên server
+                                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        success: function (data) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xóa các hóa đơn thành công',
+                                                showConfirmButton: false,
+                                                timer: 1500
+                                            }).then(function () {
+                                                location.reload();
+                                            });
+                                            console.log("data", data.products);
+                                        },
+                                    });
+                                }
+                            });
+
+                        },
+                        error: function () {
+                            // Xử lý khi request gặp lỗi
+                            console.log("Lỗi trong quá trình gọi AJAX.");
+                        }
+                    });
+                }
+                else {
+                    Swal.fire({
+                        title: 'Vui lòng chọn hóa đơn cần xóa',
+                        icon: 'info',
+                        confirmButtonText: 'Đóng'
+                    })
+                }
+
+            });
+
+
+
+            $(document).ready(function () {
+                $('.btn-detele-pro').click(function () {
+                    var hoadonId = $(this).data('id');
+                    console.log(hoadonId);
+                    $('#proId').val(hoadonId);
+                    $.ajax({
+                        type: "GET",
+                        url: '/Admin/HoaDons/DeleteOne?id=' + hoadonId,
+                        success: function (data) {
+                            if (hoadonId != null) {
+                                console.log("data", data)
+                                var formattedTime = moment(data.hoadon.hdNgay).format('DD/MM/YYYY HH:mm');
+                                var time = formattedTime;
+                                var detailPro = '<div class="row" style="width:800px">' +
+                                    '<div class="col-sm-6">' +
+                                    '<p><b>Tổng tiền:</b> ' + data.hoadon.hdTongtien.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</p>' + '<br>' +
+                                    '</div>' +
+                                    '<div class="col-sm-6">' +
+                                    '<p><b>Khách hàng :</b> ' + data.nguoidung + '</p>' + '<br>' +
+                                    '</div>' +
+                                    '<div class="col-sm-6">' +
+                                    '<p><b>Ngày đặt:</b> ' + time + '</p>' + '<br>' +
+                                    '</div>' +
+                                    //'<div class="col-sm-6">' +
+                                    //'<p><b>Loại :</b> ' + data.loaiTen + '</p>' + '<br>' +
+                                    //'</div>' +
+                                    //'<div class="col-sm-6">' +
+                                    //'<p><b>Nhà cung cấp:</b> ' + data.nccTen + '</p>' + '<br>' +
+                                    //'</div>' +
+                                    //'<div class="col-sm-6">' +
+                                    //'<p><b>Mô tả:</b> ' + data.sanPham.spMota + '</p>' + '<br>' +
+                                    //'</div>' +
+                                    //'<div class="col-sm-12">' +
+                                    //'<p><b>Hình ảnh:</b> ' + '<img style="width:122px" src="/images/' + data.sanPham.spHinhanh + '" alt="Ảnh sản phẩm" />' + '<br>' +
+                                    //'</div>' +
+                                    '</div>';
+                                Swal.fire({
+                                    icon: 'warning',
+                                    title: 'Bạn có muốn xóa hóa đơn này',
+                                    html: detailPro,
+                                    width: 900,
+                                    confirmButtonText: 'Xóa',
+                                    showCancelButton: true
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        var jsonData = JSON.stringify(hoadonId);
+                                        $.ajax({
+                                            type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                            url: '/Admin/HoaDons/DeleteOneConfirm', // URL của endpoint trên server
+                                            data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                            contentType: "application/json; charset=utf-8",
+                                            dataType: "json",
+                                            success: function (data) {
+                                                Swal.fire({
+                                                    icon: 'success',
+                                                    title: 'Xóa hóa đơn thành công',
+                                                    showConfirmButton: false,
+                                                    timer: 1500
+                                                }).then(function () {
+                                                    location.reload();
+                                                });
+                                                console.log("data", data.products);
+                                            },
+                                        });
+                                    }
+                                });
+                                //console.log(productId);
+                                //console.log(data.nccTen);
+                                //console.log(data.loaiTen);
+                                //console.log(data.sanPham);
+                                //// Cập nhật nội dung modal với dữ liệu từ server
+                                //$("#DeleteModal .modalContent").html(data);
+                                //$('#proName').text(data.sanPham.spTensp);
+                                //$('#proPrice').text(data.sanPham.spGia);
+                                //$('#proQuantity').text(data.sanPham.spSoluong);
+                                //$('#proDescription').text(data.sanPham.spMota);
+                                //var imageUrl = '/images/' + data.sanPham.spHinhanh;
+                                //$('#proImage').attr('src', imageUrl);
+                                //$('#proCategory').text(data.loaiTen);
+                                //$('#proSupplier').text(data.nccTen);
+
+                                //// Hiển thị modal
+                                //$("#DeleteModal").modal("show");
+                            } else {
+                                console.log("lỗi nè fen");
+                            }
+                        },
+                        error: function () {
+                            console.log("Lỗi trong quá trình gọi AJAX.");
+                        }
+                    });
+                });
+            });
+
+        });
+
+    </script>
+
+
+
+
+}

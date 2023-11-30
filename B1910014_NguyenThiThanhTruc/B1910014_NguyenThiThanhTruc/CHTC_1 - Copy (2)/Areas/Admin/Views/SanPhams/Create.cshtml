@@ -1,0 +1,172 @@
+﻿@model CHTC_1.Models.SanPham
+
+@{
+    ViewData["Title"] = "Tạo mới sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin:24px">
+<h1 style="text-align:center">Thêm mới sản phẩm</h1>
+<hr />
+@*<div class="row" style="text-align:center">
+    <div class="col-md-4">
+        <form asp-controller="SanPhams" asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NccId" class="control-label">Nhà cung cấp</label>
+                <select asp-for="NccId" class="form-control" asp-items="@ViewBag.NhaCungCap" required>
+                    <option value="0" disabled selected>Chọn nhà cung cấp</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="LId" class="control-label">Loại</label>
+                <select asp-for="LId" class="form-control" asp-items="@ViewBag.Loai" required>
+                    <option value="0" disabled selected>Chọn loại</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpTensp" class="control-label">Tên sản phẩm</label>
+                <input asp-for="SpTensp" class="form-control" />
+                <span asp-validation-for="SpTensp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpGia" class="control-label">Giá</label>
+                <input asp-for="SpGia" class="form-control" />
+                <span asp-validation-for="SpGia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpSoluong" class="control-label">Số lượng</label>
+                <input asp-for="SpSoluong" class="form-control" />
+                <span asp-validation-for="SpSoluong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpMota" class="control-label">Mô tả</label>
+                @*<input asp-for="SpMota" class="form-control" />
+                <textarea id="editor" asp-for="SpMota"></textarea>
+                <span asp-validation-for="SpMota" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpHinhanh" class="control-label">Hình ảnh</label>
+                <input type="file" name="ifile" asp-for="SpHinhanh" class="form-control-file">
+                <span asp-validation-for="SpHinhanh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+*@
+
+
+    <div class="row" style="text-align:center">
+        <div class="col-md-8">
+            <form asp-controller="SanPhams" asp-action="Create" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group col-md-12 row">
+                    <div class="form-group col-md-6 row">
+                        <label asp-for="NccId" class="control-label col-md-6">Nhà cung cấp:</label>
+                        <div class="col-md-6">
+                            <select asp-for="NccId" class="form-control" asp-items="@ViewBag.NhaCungCap" required>
+                                <option value="0" disabled selected>Nhà cung cấp</option>
+                            </select>
+                            <span asp-validation-for="NccId" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="form-group col-md-6 row">
+                        <label asp-for="LId" class="control-label col-md-6">Loại:</label>
+                        <div class="col-md-6">
+                            <select asp-for="LId" class="form-control" asp-items="@ViewBag.Loai" required>
+                                <option value="0" disabled selected>Loại</option>
+                            </select>
+                            <span asp-validation-for="LId" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="form-group col-md-12 row">
+                    <div class="form-group col-md-6 row">
+                        <label asp-for="SpTensp" class="control-label col-md-6">Tên sản phẩm:</label>
+                        <div class="col-md-6">
+                            <input asp-for="SpTensp" class="form-control" />
+                            <span asp-validation-for="SpTensp" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="form-group col-md-6 row">
+                        <label asp-for="SpGia" class="control-label col-md-6">Giá:</label>
+                        <div class="col-md-6">
+                            <input asp-for="SpGia" class="form-control" min="1" />
+                            <span asp-validation-for="SpGia" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12 row">
+                   @* <div class="form-group col-md-6 row">
+                        <label asp-for="SpSoluong" class="control-label col-md-6">Số lượng:</label>
+                        <div class="col-md-6">
+                            <input asp-for="SpSoluong" class="form-control" type="number" min="1" />
+                            <span asp-validation-for="SpSoluong" class="text-danger"></span>
+                        </div>
+
+                    </div>*@
+                    <div class="form-group col-md-6 row">
+                        @* <label asp-for="SpHinhanh" class="control-label">Hình ảnh</label>*@
+                        <input type="file" name="ifile" asp-for="SpHinhanh" class="form-control-file col-md-6" id="imageInput">
+                        <div class="col-md-6">
+                            <img src="SpHinhanh" alt="Product Picture" style="width:200px; height:auto;" id="previewImage">
+                            <span asp-validation-for="SpHinhanh" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group col-md-12 row">
+                    <label asp-for="SpMota" class="control-label col-md-3">Mô tả</label>
+                    @*<input asp-for="SpMota" class="form-control" />*@
+                    <textarea id="editor" asp-for="SpMota" class="col-md-9"></textarea>
+                    <span asp-validation-for="SpMota" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <input type="submit" value="Lưu" class="btn btn-outline-success" />
+                    <a asp-action="Index" class="btn btn-outline-secondary">Trở lại</a>
+                    @*<div>
+                    <a asp-action="Index">Trở lại</a>
+                    </div>*@
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    
+
+
+    
+    <script >
+
+        CKEDITOR.replace('editor');
+        $('#imageInput').on('change', function () {
+            console.log("load ảnh")
+            var imgInput = $('#imageInput').data('id')
+            var previewImg = $('previewImage').data('id')
+            if (imageInput.files && imageInput.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    previewImage.src = e.target.result;
+                };
+                reader.readAsDataURL(imageInput.files[0]);
+            }
+        })
+    </script>
+}

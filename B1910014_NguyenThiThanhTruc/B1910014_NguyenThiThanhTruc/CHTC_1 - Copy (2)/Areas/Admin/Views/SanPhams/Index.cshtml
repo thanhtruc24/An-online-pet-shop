@@ -1,0 +1,485 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.SanPham>
+
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Danh sách sản phẩm" + CurrentPage;
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin:24px">
+<h1 style="text-align:center" >Danh sách sản phẩm</h1>
+    <div>
+        <div style="display:inline-block;margin-right:20px">
+            <a asp-action="Create" class="btn btn-outline-info">
+                Thêm mới
+            </a>
+        </div>
+        <div style="display:inline-block">
+            <a class="btn btn-outline-danger btn-deletemany"@* data-toggle="modal" data-target="DeleteManyModal"*@>
+                Xóa nhiều
+            </a>
+        </div>
+    </div>
+
+    <div class="form-group" style="width:180px!important;display:inline-block">
+        <input type="text" class="form-control bg-light border-0 small search-input" placeholder="Search for..." id="keyword" name="keyword"
+               aria-label="Search" aria-describedby="basic-addon2">
+        </div>
+
+    <div class="form-group" style="width:180px!important;display:inline-block">
+        <label class="control-label"></label>
+        <select id="txtLoaiID" name="txtLoaiID" class="form-control" asp-items="@ViewBag.Loai" required>
+            <option selected>Chọn loại</option>
+            <option value="0">Chọn tất cả</option>
+        </select>
+    </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <input type="checkbox" name="checkall" id="checkall">
+            </th>
+            <th>
+                Hình ảnh
+            </th>
+            <th>
+                Tên sản phẩm
+            </th>
+            <th>
+                Giá
+            </th>
+            <th>
+                Tồn kho
+            </th>
+            <th>
+                Mô tả
+            </th>
+            <th>
+                Loại
+            </th>
+            <th>
+                Nhà cung cấp
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+        <tbody id="table">
+            @if (Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>   
+                        <td>
+                            <input type="checkbox" name="checkbox" data-id="@item.SpId">
+                        </td>
+                        <td>
+                            <img src="/images/@item.SpHinhanh" height="80px" width="100px">
+                        </td>
+                        <td style="width:200px">
+                            @Html.DisplayFor(modelItem => item.SpTensp)
+                        </td>
+                        <td>
+                            @item.SpGia.ToString("#,##0") VNĐ
+                        </td>
+                        @if(item.SpSoluongton == null)
+                        {
+                            <td>0</td>
+                        }
+                        else
+                        {
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SpSoluongton)
+                            </td>
+                        }
+                       
+                        <td style="width: 250px">
+                           @item.SpMota
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LIdNavigation.LTenloai)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ncc.NccTen)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.SpId" class="crudicon">
+                                <span class="material-symbols-outlined">
+                                    edit_square
+                                </span>
+                            </a>
+                            <a data-id="@item.SpId" class="btn-details-pro crudicon" @*data-toggle="modal" data-target="DetailsModal"*@>
+                                <span class="material-symbols-outlined">
+                                    visibility
+                                </span>
+                            </a>
+                           @* <a data-id="@item.SpId" class="btn btn-info btn-details-pro" data-toggle="modal" data-target="DetailsModal" onclick="openDetailsModal(@item.SpId)">
+                                <i class="fas fa-info-circle"></i>
+                            </a>*@
+
+                            <a data-id="@item.SpId" class="btn-detele-pro crudicon" @*data-toggle="modal" data-target="DeleteModal"*@>
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </a>
+                           @* <a asp-action="Delete" asp-route-id="@item.SpId" class="btn btn-danger">
+                                <i class="fas fa-trash"></i>
+                            </a>*@
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+        @*@await Html.PartialAsync("DetailsPartial.cshtml")*@
+   @*     @await Html.PartialAsync("DeletePartial.cshtml")*@
+        @*@await Html.PartialAsync("DeleteMany.cshtml")*@
+</table>
+    <div aria-label="Page navigation example">
+        <ul class="pagination">
+            <pager class="pager-container" list="@Model" asp-area="Admin" asp-controller="SanPhams" asp-route-LoaiID="@ViewBag.CurrentLoaiID" asp-action="Index" />
+        </ul>
+    </div>
+</div>
+
+
+
+@section Scripts{
+    <script>
+        CKEDITOR.replace('editor');
+        $(document).ready(function () {
+            jQuery("#txtLoaiID").change(function () {
+                var loaiID = jQuery(this).children(":selected").attr("value");
+                loaiID = parseFloat(loaiID);
+                $('#txtLoaiID option')
+                    .removeAttr('selected');
+                $("#txtLoaiID > [value=" + loaiID + "]").attr("selected", "true");
+                $.ajax({
+                    url: '/Admin/SanPhams/Filtter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        LoaiID: loaiID
+                    },
+                    async: true,
+                    success: function (results) {
+                        if (results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+        });
+
+        // tìm sản phẩm
+        $(document).ready(function (){
+            $("#keyword").keyup(function () {
+                var strkeyword = $('#keyword').val();
+                $.ajax({
+                    url: '/Admin/Search/FindProduct/',
+                    datatype: "json",
+                    type: "POST",
+                    data: { keyword: strkeyword },
+                    async: true,
+                    success: function (results) {
+                        $("#table").html("");
+                        $("#table").html(results);
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+        });
+
+        //chi tiết sản phẩm
+        $(document).ready(function(){
+            $('.btn-details-pro').click(function () {
+                var productId = $(this).data('id');
+                console.log(productId);
+                $.ajax({
+                    type: "GET",
+                    url: '/Admin/SanPhams/DetailsSp?id=' + productId,
+                    success: function (data) {
+                        if (productId != null) {
+                            //console.log(productId);
+                            //console.log(data.nccTen);
+                            //console.log(data.loaiTen);
+                            //console.log(data.sanPham);
+                            var imageUrl = '/images/' + data.sanPham.spHinhanh;
+                            var detailPro = '<div class="row" style="width:800px">' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Tên sản phẩm:</b> ' + data.sanPham.spTensp + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                '<p><b>Giá :</b> ' + data.sanPham.spGia.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</p>' + '<br>' +
+                                '</div>' +
+                                //'<div class="col-sm-6">' +
+                                //    '<p><b>Số lượng:</b> ' + data.sanPham.spSoluong + '</p>' + '<br>' +
+                                //'</div>' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Loại sản phẩm:</b> ' + data.loaiTen + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Nhà cung cấp:</b> ' + data.nccTen + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Mô tả:</b> ' + data.sanPham.spMota + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-12">' +
+                                    '<p><b>Hình ảnh:</b> ' + '<img style="width:122px" src="/images/' + data.sanPham.spHinhanh + '" alt="Ảnh sản phẩm" />' + '<br>' +
+                                '</div>' +
+                                '</div>';
+                            Swal.fire({
+                                icon: 'info',
+                                title: 'Chi tiết sản phẩm',
+                                html: detailPro,
+                                width: 900,
+                                confirmButtonText: 'Đóng'
+                            })
+
+                        } else {
+                            console.log("lỗi nè fen");
+                        }
+                    },
+                    error: function () {
+                        console.log("Lỗi trong quá trình gọi AJAX.");
+                    }
+                });
+            });
+        });
+
+        
+
+        //chọn all checkbox
+        $(document).ready(function(){
+            var productIds = [];
+            // click checkall
+            $('#checkall').click(function () {
+                var checkAllChecked = $(this).prop('checked');
+                $('input[name="checkbox"]').prop('checked', checkAllChecked);
+                //console.log(checkAllChecked);
+                if (checkAllChecked) {
+                    productIds = [];
+                    $('input[name="checkbox"]:checked').each(function () {
+                        productIds.push($(this).data('id'));
+                    });
+                }
+                else{
+                    let i = 0;
+                    while (i < productIds.length) {
+                        console.log(productIds[i]);
+                        productIds.splice(i, 1);
+                    }
+                }
+                console.log("ds cc", productIds)
+            });
+
+            // check từng cái
+            $('input[name="checkbox"]').click(function () {
+                if (this.checked) {
+                    var productId = $(this).data('id');
+                    productIds.push(productId)
+                    var jsonData = JSON.stringify(productIds);
+                }
+                else { 
+                    //console.log("id da bo", $(this).data('id'));
+                    const checkall = document.getElementById("checkall");
+                    checkall.checked = false;
+              
+                    for(let i  =0 ; i < productIds.length; i++){
+                        if (productIds[i] == $(this).data('id'))
+                            productIds.splice(i, 1)
+                    }
+                    //console.log("bo check", productIds)
+                }
+                console.log("ds cc", productIds)
+            });
+
+            //xóa nhiều
+            $('.btn-deletemany').click(function () {
+                if(productIds.length > 0){
+                    // Truyền mảng productIds lên server bằng AJAX và xử lý xóa nhiều.
+                    var jsonData = JSON.stringify(productIds);
+                    console.log("dl truyen di", productIds)
+                    $.ajax({
+                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                        url: '/Admin/SanPhams/DeleteMany', // URL của endpoint trên server
+                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (data) {
+                            console.log("Thành công gửi dữ liệu lên server.");
+                            console.log("data", data.products);
+
+                            var tableProducts = '<table style="border-collapse: collapse;width:-webkit-fill-available;">' +
+                                '<thead>' +
+                                '<tr>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Tên sản phẩm</th>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Giá</th>' +
+                                //'<th style="border: 1px solid #ddd;text-align:center">Số lượng</th>' +
+                                '</tr>' +
+                                '</thead>' +
+                                '<tbody>';
+
+                            for (var i = 0; i < data.products.length; i++) {
+                                var product = data.products[i];
+                                tableProducts += '<tr>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + product.spTensp + '</td>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + product.spGia.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</td>' +
+                                    //'<td style="border: 1px solid #ddd;text-align:center">' + product.spSoluong + '</td>' +
+                                    '</tr>';
+                            }
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Bạn có muốn xóa các sản phẩm đã chọn',
+                                html: tableProducts,
+                                confirmButtonText: 'Xóa',
+                                showCancelButton: true
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    var jsonData = JSON.stringify(productIds);
+                                    $.ajax({
+                                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                        url: '/Admin/SanPhams/DeleteManyConfirm', // URL của endpoint trên server
+                                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        success: function (data) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xóa sản phẩm thành công',
+                                                showConfirmButton: false,
+                                                timer: 1500
+                                            }).then(function () {
+                                                location.reload();
+                                            });
+                                            console.log("data", data.products);
+                                        },
+                                    });
+                                }
+                            });
+
+                        },
+                        error: function () {
+                            // Xử lý khi request gặp lỗi
+                            console.log("Lỗi trong quá trình gọi AJAX.");
+                        }
+                    });
+                }
+                else{
+                    Swal.fire({
+                        title: 'Vui lòng chọn sản phẩm cần xóa',
+                        icon: 'info',
+                        confirmButtonText: 'Đóng'
+                    })
+                }
+               
+            });
+        });
+
+        
+
+        $(document).ready(function () {
+            $('.btn-detele-pro').click(function () {
+                var productId = $(this).data('id');
+                console.log(productId);
+                $('#proId').val(productId);
+                $.ajax({
+                    type: "GET",
+                    url: '/Admin/SanPhams/DeleteSp?id=' + productId,
+                    success: function (data) {
+                        if (productId != null) {
+                            var detailPro = '<div class="row" style="width:800px">' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Tên sản phẩm:</b> ' + data.sanPham.spTensp + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                '<p><b>Giá :</b> ' + data.sanPham.spGia.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</p>' + '<br>' +
+                                '</div>' +
+                                //'<div class="col-sm-6">' +
+                                //    '<p><b>Số lượng:</b> ' + data.sanPham.spSoluong + '</p>' + '<br>' +
+                                //'</div>' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Loại sản phẩm:</b> ' + data.loaiTen + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Nhà cung cấp:</b> ' + data.nccTen + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                    '<p><b>Mô tả:</b> ' + data.sanPham.spMota + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-12">' +
+                                    '<p><b>Hình ảnh:</b> ' + '<img style="width:122px" src="/images/' + data.sanPham.spHinhanh + '" alt="Ảnh sản phẩm" />' + '<br>' +
+                                '</div>' +
+                                '</div>';
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Bạn có muốn xóa sản phẩm này',
+                                html: detailPro,
+                                width: 900,
+                                confirmButtonText: 'Xóa',
+                                showCancelButton: true
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    var jsonData = JSON.stringify(productId);
+                                    $.ajax({
+                                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                        url: '/Admin/SanPhams/DeleteConfirm', // URL của endpoint trên server
+                                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        success: function (data) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xóa sản phẩm thành công',
+                                                showConfirmButton: false,
+                                                timer: 1500
+                                            }).then(function () {
+                                                location.reload();
+                                            });
+                                            console.log("data", data.products);
+                                        },
+                                    });
+                                }
+                            });
+                            //console.log(productId);
+                            //console.log(data.nccTen);
+                            //console.log(data.loaiTen);
+                            //console.log(data.sanPham);
+                            //// Cập nhật nội dung modal với dữ liệu từ server
+                            //$("#DeleteModal .modalContent").html(data);
+                            //$('#proName').text(data.sanPham.spTensp);
+                            //$('#proPrice').text(data.sanPham.spGia);
+                            //$('#proQuantity').text(data.sanPham.spSoluong);
+                            //$('#proDescription').text(data.sanPham.spMota);
+                            //var imageUrl = '/images/' + data.sanPham.spHinhanh;
+                            //$('#proImage').attr('src', imageUrl);
+                            //$('#proCategory').text(data.loaiTen);
+                            //$('#proSupplier').text(data.nccTen);
+                           
+                            //// Hiển thị modal
+                            //$("#DeleteModal").modal("show");
+                        } else {
+                            console.log("lỗi nè fen");
+                        }
+                    },
+                    error: function () {
+                        console.log("Lỗi trong quá trình gọi AJAX.");
+                    }
+                });
+            });
+        });
+
+
+            //function showAlert(){
+            //Swal.fire({
+            //    title: 'Thông báo',
+            //    text: 'Chào mừng bạn đến với SweetAlert!',
+            //    icon: 'question',
+            //    confirmButtonText: 'OK'
+            //    });
+            //};
+    </script>
+}

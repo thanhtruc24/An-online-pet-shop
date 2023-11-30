@@ -1,0 +1,42 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.SanPham>
+<!-- Modal Role-->
+<div class="modal fade" id="DeleteManyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Xóa nhiều sản phẩm</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Nội dung dữ liệu từ controller sẽ được hiển thị ở đây -->
+                <div id="modalContent">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Mô tả</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Dữ liệu sẽ được cập nhật ở đây -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                @*<button type="button" class="btn btn-danger" >Xóa</button>*@
+                <form asp-action="DeleteSp">
+                    <input type="hidden" id="proId" name="proId" />
+                    <input type="submit" value="Xóa" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,420 @@
+﻿@model CHTC_1.Areas.Admin.Models.NhapHangViewModel;
+
+@{
+    ViewData["Title"] = "Danh sách phiếu nhập hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+<div class="container-fluid px-4">
+    <div class="card mb-4">
+        <div class="card-header">
+            <a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a>
+            <button id="nhapHang" class="btn btn-outline-info"><span> Tạo phiếu nhập</span></button>
+        </div>
+       @* <input id="keyword" name="keyword" type="text" class="form-control" placeholder="Tìm kiếm sản phẩm" />*@
+        <div>
+            <div style="width:180px!important;display:inline-block;margin: 0 21px;">
+                <label class="control-label"></label>
+                <select id="txtLoaiID" name="txtLoaiID" class="form-control" asp-items="@ViewBag.Loai" required>
+                    <option selected>Chọn loại</option>
+                    <option value="0">Chọn tất cả</option>
+                </select>
+            </div>
+            <div style="width:200px!important;display:inline-block">
+                <label class="control-label"></label>
+                <select id="txtNccID" name="txtNccID" class="form-control" asp-items="@ViewBag.Ncc" required>
+                    <option selected>Chọn nhà cung cấp</option>
+                    <option value="0">Chọn tất cả</option>
+                </select>
+            </div>
+        </div>
+        
+
+        <div class="card-body">
+            <table class="table" id="records_table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Hình ảnh</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Nhà cung cấp</th>
+                        <th>Loại</th>
+                        <th>Đơn giá nhập</th>
+                        <th>Số lượng</th>
+                    </tr>
+                </thead>
+                <tbody id="records">
+
+                    @if (Model.sanPhams != null)
+                    {
+                        foreach (var item in Model.sanPhams)
+                        {
+                            var defaultAmount = 0;
+                            var basicPrice = 0.00 ;
+                            ChitietPhieuNhap chitiet = Model.chitietPhieuNhap.FirstOrDefault(x => x.Sp.SpId == item.SpId);
+                            if (chitiet != null)
+                            {
+                                defaultAmount = (int)chitiet.CtpnSoluong;
+                                basicPrice = (double)chitiet.CtpnGiagoc;
+                            }
+                            <tr>
+                                <td>@item.SpId</td>
+                                <td><img src="/images/@item.SpHinhanh" height="100px" width="100px"></td>
+                                <td>@item.SpTensp</td>
+                                <td>@item.Ncc.NccTen</td>
+                                <td>@item.LIdNavigation.LTenloai</td>
+                                <td>
+                                    <input value="@basicPrice" class="basicprice-input" id="basicprice_@item.SpId" style="border-radius: 8px;border: 1px solid #ccc;" />
+                                </td>
+                                <td>
+                                    <input type="number" value="@defaultAmount" min="0" class="amount-input" id="amount_@item.SpId" style="border-radius: 8px;border: 1px solid #ccc;" />
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid px-4">
+    <div>
+        <div class="row-sm-6">
+            <ul class="pagination">
+                <pager class="pager-container" list="@Model.sanPhams" asp-area="Admin" asp-controller="NhapHangs" asp-action="Create"></pager>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="diaChiModalLabel">Xác nhận phiếu nhập</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form asp-controller="NhapHangs" asp-action="Create" method="post">
+                <div class="modal-body">
+                    @*<div class="form-group">
+                        <label class="row-sm-12 control-label">Nhà cung cấp</label>
+                        <select class="row-sm-6 form-control selectpicker" data-live-search="true" asp-for="NccId">
+                            <option selected disabled>Chọn nhà cung cấp</option>
+                            @foreach (var ncc in Model.nhaCungCaps)
+                            {
+                                <option value="@ncc.NccId">@ncc.NccTen</option>
+                            }
+                        </select>
+                        <span asp-validation-for="@Model.Ncc" class="text-danger"></span>
+                    </div>*@
+                    <div id="confirm_records" class="overflow-auto" style="height: 450px"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Quay lại</button>
+                    <button type="submit" class="btn btn-danger">Xác nhận</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+
+        $(document).ready(function () {
+            var loaiID;
+            jQuery("#txtLoaiID").change(function () {
+                event.preventDefault()
+                loaiID = jQuery(this).children(":selected").attr("value");
+                loaiID = parseFloat(loaiID);
+                //$('#txtLoaiID option')
+                //    .removeAttr('selected');
+                $("#txtLoaiID > [value=" + loaiID + "]").attr("selected", "true");
+                $.ajax({
+                    url: '/Admin/NhapHangs/Filtter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        LoaiID: loaiID
+                    },
+                    async: true,
+                    success: function (results) {
+                        if (results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+
+            //jQuery("#txtNccID").change(function () {
+            //    event.preventDefault()
+            //    var nccID = jQuery(this).children(":selected").attr("value");
+            //    nccID = parseFloat(nccID);
+            //    //$('#txtNccID option')
+            //    //    .removeAttr('selected');
+            //    $("#txtNccID > [value=" + nccID + "]").attr("selected", "true");
+            //    console.log("loaiID", loaiID)
+            //    console.log("nccID", nccID)
+            //    $.ajax({
+            //        url: '/Admin/NhapHangs/Filter',
+            //        datatype: "json",
+            //        type: "GET",
+            //        data: {
+            //            nccID: nccID
+            //        },
+            //        async: true,
+            //        success: function (results) {
+            //            if (results.status == "success") {
+            //                window.location.href = results.redirectUrl;
+            //            }
+            //        },
+            //        error: function (xhr) {
+            //            alert('error');
+            //        }
+            //    });
+            //});
+        });
+
+        $(document).ready(function () {
+            jQuery("#txtNccID").change(function () {
+                var nccID = jQuery(this).children(":selected").attr("value");
+                nccID = parseFloat(nccID);
+                $('#txtNccID option')
+                    .removeAttr('selected');
+                $("#txtNccID > [value=" + nccID + "]").attr("selected", "true");
+                $.ajax({
+                    url: '/Admin/NhapHangs/Filter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        nccID: nccID
+                    },
+                    async: true,
+                    success: function (results) {
+                        if (results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+        });
+        function amountInputOnChange() {
+            $(".amount-input").on("change", function (e) {
+                var id = $(this).attr('id').replace('amount_', '');
+                var amount = $(this).val();
+                console.log("id:", id)
+                console.log("amount:", amount)
+                //$.ajax({
+                //    url: '/Admin/NhapHangs/updateChiTiets',
+                //    datatype: "json",
+                //    type: "post",
+                //    data: {
+                //        SpId: id,
+                //        amount: amount
+                //    },
+                //    async: true,
+                //    success: function (results) {
+
+                //    },
+                //    error: function (error) {
+                //        console.log(error);
+                //        alert('Error');
+                //    }
+                //});
+            });
+        }
+        function priceInputOnChange() {
+            $(".basicprice-input").on("change", function (e) {
+                var id = $(this).attr('id').replace('basicprice_', '');
+                var price = $(this).val();
+                console.log("id:", id)
+                console.log("price:", price)
+                //console.log("Đã vào")
+                //$.ajax({
+                //    url: '/Admin/NhapHangs/updateChiTiets',
+                //    datatype: "json",
+                //    type: "post",
+                //    data: {
+                //        SpId: id,
+                //        amount: amount
+                //    },
+                //    async: true,
+                //    success: function (results) {
+
+                //    },
+                //    error: function (error) {
+                //        console.log(error);
+                //        alert('Error');
+                //    }
+                //});
+            });
+        }
+
+
+        $(document).ready(function () {
+            //amountInputOnChange();
+            //priceInputOnChange();
+            var idBasicPrice;
+            var price;
+            var idAmount;
+            var amount;
+            $(".basicprice-input").on("change", function (e) {
+                idBasicPrice = $(this).attr('id').replace('basicprice_', '');
+                price = $(this).val();
+                continueUsingValues();
+                //console.log("id:", id)
+                //console.log("price:", price)
+            });
+            $(".amount-input").on("change", function (e) {
+                idAmount = $(this).attr('id').replace('amount_', '');
+                amount = $(this).val();
+                continueUsingValues();
+                //console.log("id:", id)
+                //console.log("amount:", amount)
+
+            });
+            function continueUsingValues() {
+                
+                
+                if (idAmount == idBasicPrice && idAmount != null && idBasicPrice != null && price != null & amount != null) {
+                    console.log("đủ")
+                    $.ajax({
+                        url: '/Admin/NhapHangs/updateChiTiets',
+                        datatype: "json",
+                        type: "post",
+                        data: {
+                            SpId: idBasicPrice,
+                            amount: amount,
+                            price: price
+                        },
+                        async: true,
+                        success: function (results) {
+
+                        },
+                        error: function (error) {
+                            console.log(error);
+                            alert('Error');
+                        }
+                    });
+                    $("#nhapHang").on('click', function (e) {
+                        //$('#confirmModal').modal('show');
+
+                        $.ajax({
+                            url: '/Admin/NhapHangs/getConfirmRecordsPartial',
+                            datatype: "json",
+                            type: "get",
+                            success: function (data) {
+                                console.log("Data", data)
+                                console.log(data.chitiets.length)
+                                var total = 0;
+                                var chitietphieunhap = '<table style="border-collapse: collapse;width:-webkit-fill-available;">' +
+                                    '<thead>' +
+                                    '<tr>' +
+                                    '<th style="border: 1px solid #ddd;text-align:center">Tên sản phẩm</th>' +
+                                    '<th style="border: 1px solid #ddd;text-align:center">Giá nhập</th>' +
+                                    '<th style="border: 1px solid #ddd;text-align:center">Số lượng</th>' +
+                                    '<th style="border: 1px solid #ddd;text-align:center">Thành tiền</th>' +
+                                    '<th style="border: 1px solid #ddd;text-align:center">Hình ảnh</th>' +
+                                    '</tr>' +
+                                    '</thead>' +
+                                    '<tbody>';
+
+                                for (var i = 0; i < data.chitiets.length; i++) {
+                                    var chitiet = data.chitiets[i];
+                                    var thanhtien = chitiet.ctpnSoluong * chitiet.ctpnGiagoc
+                                    total += thanhtien;
+                                   
+                                    chitietphieunhap += '<tr>' +
+                                        '<td style="border: 1px solid #ddd;text-align:center">' + chitiet.sp.spTensp + '</td>' +
+                                        '<td style="border: 1px solid #ddd;text-align:center">' + chitiet.ctpnGiagoc.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</td>' +
+                                        '<td style="border: 1px solid #ddd;text-align:center">' + chitiet.ctpnSoluong + '</td>' +
+                                        '<td style="border: 1px solid #ddd;text-align:center">' + thanhtien.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })  + '</td>' +
+                                        '<td style="border: 1px solid #ddd;text-align:center">' + '<img style="width:122px" src="/images/' + chitiet.sp.spHinhanh + '" alt="Ảnh sản phẩm" />' + '</td>' +
+                                        '</tr>';
+                                }
+
+                                chitietphieunhap += '</tbody>' + '</table>';
+                                chitietphieunhap += '<br>';
+                                chitietphieunhap += '<div>'
+                                 + '<h3>' + 'TỔNG TIỀN:' +  total.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</h3>' + '</div>';
+                                Swal.fire({
+                                    icon: 'info',
+                                    title: 'Chi tiết phiếu nhập',
+                                    html: chitietphieunhap,
+                                    width: 900,
+                                    confirmButtonText: 'Xác nhận',
+                                    showCancelButton: true
+                                }).then((result) => {
+                                    //var jsonData = JSON.stringify(data);
+                                    if (result.isConfirmed) {
+                                        //console.log(data)
+                                        $.ajax({
+                                            type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                            url: '/Admin/NhapHangs/CreateReceipt', // URL của endpoint trên server
+                                            //data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                            //contentType: "application/json; charset=utf-8",
+                                            //dataType: "json",
+                                            success: function (data) {
+                                                Swal.fire({
+                                                    icon: 'success',
+                                                    title: 'Tạo phiếu nhập hàng thành công',
+                                                    showConfirmButton: false,
+                                                    timer: 1500
+                                                }).then(function () {
+                                                    location.reload();
+                                                });
+                                                console.log("data", data.products);
+                                            },
+                                        });
+                                    }
+                                });
+                                //$("#confirm_records").html("");
+                                //$("#confirm_records").html(results);
+                            },
+                            error: function (error) {
+                                console.log(error);
+                                alert('Error');
+                            }
+                        });
+                    });
+                }
+                else {
+                    console.log("chưa đủ")
+                }
+            };
+
+            
+        });
+
+        //$(document).ready(function () {
+        //    amountInputOnChange();
+        //    priceInputOnChange();
+            
+        //    $("#nhapHang").on('click', function (e) {
+        //        $('#confirmModal').modal('show');
+        //        $.ajax({
+        //            url: '/Admin/NhapHangs/getConfirmRecordsPartial',
+        //            datatype: "json",
+        //            type: "get",
+        //            success: function (results) {
+        //                $("#confirm_records").html("");
+        //                $("#confirm_records").html(results);
+        //            },
+        //            error: function (error) {
+        //                console.log(error);
+        //                alert('Error');
+        //            }
+        //        });
+        //    });
+        //});
+    </script>
+}

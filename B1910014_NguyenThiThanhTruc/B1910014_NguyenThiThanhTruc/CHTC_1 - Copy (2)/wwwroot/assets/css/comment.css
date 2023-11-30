@@ -1,0 +1,38 @@
+﻿.rating {
+  font-size: 0;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*.star:hover:before {
+  content: '\2605';
+  color: gold;
+}
+*/
+.star.active {
+	color: gold; /* Màu của sao khi tô đậm, ví dụ: màu vàng */
+}
+
+.isActive {
+	color: gold;
+}
+
+.like, .dislike , .reply {
+	cursor: pointer;
+}
+
+
+.likeActive  {
+	color: blue;
+}
+
+.dislikeActive{
+	color:red;
+}
+
+.sub-comment {
+	display: none;
+}

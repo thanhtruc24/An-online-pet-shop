@@ -1,0 +1,106 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    CHTC_1.ModelViews.ChangePasswordViewModel changePassword = new CHTC_1.ModelViews.ChangePasswordViewModel();
+}
+<nav class="navbar navbar-expand-lg navbar-light shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+            DoCa
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+            <div class="flex-fill">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="About">DoCa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Shop" asp-action="Index">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Contact">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar align-self-center d-flex">
+                @*  <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                <div class="input-group">
+                <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                <div class="input-group-text">
+                <i class="fa fa-fw fa-search"></i>
+                </div>
+                </div>
+                </div>*@
+                @*<a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                </a>*@
+                
+                <ul id="nav-login">
+                    @await Component.InvokeAsync("NumberCart")
+                   @* @await Component.InvokeAsync("notification")*@
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a class="nav-icon position-relative text-decoration-none icon-container-cus">
+                            <span class="material-symbols-outlined" id="iconCus">
+                                notifications
+                            </span>
+                            <div class="popoverCus popover-noti-Cus" id="popoverCus">
+                            </div>
+                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill" id="countnotificationsCus" style="background-color:red!important; color: #fff!important">
+                               0
+                            </span>
+                        </a>
+                        <li>
+                            <a id="userName" class="nav-icon position-relative text-decoration-none" href="#">
+                                
+                            </a>
+                            @*<img id="avtcustomer" class="img-profile rounded-circle" style="width:40px;height:40px;"
+                             src="">*@
+                            <ul class="subnav-login">
+                                <li><a asp-controller="DonHang" asp-action="Index">Đơn hàng của tôi</a></li>
+                                <li><a asp-controller="NguoiDung" asp-action="ProfileCustomer">Tài khoản của tôi</a></li>
+                                <li><a asp-controller="Accounts" asp-action="ChangePassword">Đổi mật khẩu</a></li>
+                                <li><a asp-controller="Accounts" asp-action="Logout">Đăng xuất</a></li>
+                            </ul>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a class="nav-icon position-relative text-decoration-none" href="#">
+                                <span class="material-symbols-outlined">
+                                    person
+                                </span>
+                                <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                            </a>
+
+                            <ul class="subnav-login">
+                                <li><a asp-controller="Accounts" asp-action="Login">Đăng nhập</a></li>
+                                <li><a asp-controller="Accounts" asp-action="Register">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    }
+
+                </ul>
+
+                @* <a class="nav-icon position-relative text-decoration-none" asp-controller="Accounts" asp-action="Login">
+                <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                </a>*@
+
+
+            </div>
+        </div>
+
+    </div>
+</nav>

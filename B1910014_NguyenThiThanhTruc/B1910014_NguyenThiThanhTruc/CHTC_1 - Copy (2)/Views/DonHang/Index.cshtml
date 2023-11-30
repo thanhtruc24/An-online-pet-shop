@@ -1,0 +1,141 @@
+﻿@*@model IEnumerable<CHTC_1.Models.HoaDon>*@
+@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.HoaDon>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*@if(Model != null && Model.Count()>0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                   Tổng tiền
+                </th>
+                <th>
+                    Ngày đặt
+                </th>
+                <th>
+                    Người đặt
+                </th>
+                <th>
+                    Phương thức thanh toán
+                </th>
+                <th>
+                    Trạng thái
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HdTongtien)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HdNgay)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nd.NdId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Pttt.PtttId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tthd.TthdId)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.HdId">Xem chi tiết</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Chưa có đơn hàng nào!</p>
+}
+*@
+<section class="h-100 h-custom">
+    <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+
+                <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Đơn hàng của tôi</h1>
+                </div>
+                @if(Model != null && Model.Count() > 0)
+                {
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Tổng tiền</th>
+                                    <th scope="col">Ngày đặt</th>
+                                    <th scope="col">Trạng thái</th>
+                                    <th scope="col">Phương thức thanh toán</th>
+                                    <th scope="col">#</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model)
+                                {
+                                    <tr>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">@item.HdTongtien.ToString("#,##0") VNĐ</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">@Html.DisplayFor(modelItem => item.HdNgay)</p>
+                                        </td>
+
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">@item.Tthd.TthdTrangthai</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">@item.Pttt.PtttTen</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            @*<button asp-action="Details" asp-controller="DonHang" asp-route-id="@item.HdId" style="border:1px solid rgb(9, 122, 60);border-radius: 8px;width: 80px;color:#ccc;background-color: rgb(9, 122, 60);">Xem</button>*@
+                                            <a asp-action="Details" asp-route-id="@item.HdId" class="btn btn-info">
+                                                Xem
+                                            </a>
+                                        </td>
+
+                                    </tr>
+                                }
+                                
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div div="row">
+                        <div aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <pager class="pager-container" list="@Model" asp-controller="DonHang" asp-action="Index" />
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <a asp-action="Index" asp-controller="Shop" class="btn btn-light btn-icon-split">
+                            <span class="icon text-gray-600">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                            <span class="text">Tiếp tục mua hàng</span>
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    <p>Chưa có đơn hàng nào.<a asp-action="Index" asp-controller="Shop" >Mua hàng ngay!</a></p>
+                }
+
+            </div>
+        </div>
+    </div>
+</section>

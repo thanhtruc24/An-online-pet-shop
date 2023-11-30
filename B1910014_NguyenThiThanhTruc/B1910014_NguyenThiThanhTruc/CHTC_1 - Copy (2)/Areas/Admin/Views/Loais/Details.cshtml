@@ -1,0 +1,25 @@
+﻿@model CHTC_1.Models.Loai
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="text-align:center">
+<h1>Chi tiết loại</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Tên loại:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LTenloai)
+        </dd>
+    </dl>
+</div>
+<div>
+        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.LId">Chỉnh sửa</a> |
+        <a class="btn" style="background-color:rgb(9, 122, 60);color:antiquewhite" asp-action="Index">Trở lại</a>
+</div>
+</div>

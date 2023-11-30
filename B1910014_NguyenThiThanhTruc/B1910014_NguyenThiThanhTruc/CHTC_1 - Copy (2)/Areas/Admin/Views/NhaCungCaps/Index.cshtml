@@ -1,0 +1,333 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.NhaCungCap>
+
+@{
+    ViewData["Title"] = "Danh sách nhà cung cấp";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin:24px">
+    <h1 style="text-align:center">Danh sách nhà cung cấp</h1>
+
+    <div style="margin:12px 0">
+        <div style="display:inline-block;margin-right:20px">
+            <a asp-action="Create" class="btn btn-outline-info">
+                Thêm mới
+            </a>
+        </div>
+        <div style="display:inline-block">
+            <a class="btn btn-outline-danger btn-deletemany">
+                Xóa nhiều
+            </a>
+        </div>
+    </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                    <input type="checkbox" name="checkall" id="checkall">
+            </th>
+            <th>
+                Nhà cung cấp
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <input type="checkbox" name="checkbox" data-id="@item.NccId">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NccTen)
+            </td>
+            <td>
+                        <a asp-action="Edit" asp-route-id="@item.NccId" class="crudicon">
+                            <span class="material-symbols-outlined">
+                                edit_square
+                            </span>
+                        </a>
+                        <a data-id="@item.NccId" class="crudicon btn-details-supplier">
+                            <span class="material-symbols-outlined">
+                                visibility
+                            </span>
+                        </a>
+                        <a data-id="@item.NccId" class="crudicon btn-detele-supplier">
+                            <span class="material-symbols-outlined">
+                                delete
+                            </span>
+                        </a>
+            </td>
+
+
+
+        </tr>
+}
+    </tbody>
+        @*@await Html.PartialAsync("DetailsPartial.cshtml")*@
+</table>
+    <div aria-label="Page navigation example">
+        <ul class="pagination">
+            <pager class="pager-container" list="@Model" asp-area="Admin" asp-controller="NhaCungCaps" asp-action="Index" />
+        </ul>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+
+        //chi tiết sản phẩm
+        $(document).ready(function(){
+            $('.btn-details-supplier').click(function () {
+                var supplierId = $(this).data('id');
+                console.log(supplierId);
+                $.ajax({
+                    type: "GET",
+                    url: '/Admin/NhaCungCaps/DetailSupplier?id=' + supplierId,
+                    success: function (data) {
+                        if (supplierId != null) {
+                            var detailSup =
+                                '<div">' +
+                                    '<p style="padding:24px;font-size:24px"><b>Tên nhà cung cấp:</b> ' + data.nhaCungCap.nccTen + '</p>' + '<br>' +
+                                '</div>';
+                            Swal.fire({
+                                icon: 'info',
+                                title: 'Chi tiết nhà cung cấp',
+                                html: detailSup,
+                                confirmButtonText: 'Đóng'
+                            })
+                        } else {
+                            console.log("lỗi nè fen");
+                        }
+                    },
+                    error: function () {
+                        console.log("Lỗi trong quá trình gọi AJAX.");
+                    }
+                });
+            });
+        });
+
+        // xóa một
+        $(document).ready(function () {
+            $('.btn-detele-supplier').click(function () {
+                var supplierId = $(this).data('id');
+                $.ajax({
+                    type: "GET",
+                    url: '/Admin/NhaCungCaps/DeleteSupplier?id=' + supplierId,
+                    success: function (data) {
+                        if (supplierId != null) {
+                            var detailSup =
+                                '<div">' +
+                                    '<p style="padding:24px;font-size:24px"><b>Tên nhà cung cấp:</b> ' + data.nhaCungCap.nccTen + '</p>' + '<br>' +
+                                '</div>';
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Bạn có muốn xóa sản phẩm này',
+                                html: detailSup,
+                                confirmButtonText: 'Xóa',
+                                showCancelButton: true
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    var jsonData = JSON.stringify(supplierId);
+                                    $.ajax({
+                                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                        url: '/Admin/NhaCungCaps/DeleteSupplierConfirm', // URL của endpoint trên server
+                                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        success: function (data) {
+                                            console.log("status", data.status)
+                                            if(data.status == "success"){
+                                                swal.fire({
+                                                    icon: 'success',
+                                                    title: 'xóa nhà cung cấp thành công',
+                                                    showconfirmbutton: false,
+                                                    timer: 1500
+                                                }).then(function () {
+                                                    location.reload();
+                                                });
+                                            }
+                                            else{
+                                                Swal.fire({
+                                                    icon: 'warning',
+                                                    title: 'Bạn phải xóa sản phẩm thuộc nhà sản xuất này trước',
+                                                    confirmButtonText: 'Đóng'
+                                                })
+                                            }
+                                            
+                                           
+                                        }
+                                    });
+                                }
+                            });
+                            
+                        } else {
+                            console.log("lỗi nè fen");
+                        }
+                    },
+                    error: function () {
+                        console.log("Lỗi trong quá trình gọi AJAX.");
+                    }
+                });
+            });
+        });
+
+        // xóa nhiều
+        $(document).ready(function () {
+            var supplierIds = [];
+            // click checkall
+            $('#checkall').click(function () {
+                var checkAllChecked = $(this).prop('checked');
+                $('input[name="checkbox"]').prop('checked', checkAllChecked);
+                //console.log(checkAllChecked);
+                if (checkAllChecked) {
+                    supplierIds = [];
+                    $('input[name="checkbox"]:checked').each(function () {
+                        supplierIds.push($(this).data('id'));
+                    });
+                }
+                else {
+                    let i = 0;
+                    while (i < supplierIds.length) {
+                        console.log(supplierIds[i]);
+                        supplierIds.splice(i, 1);
+                    }
+                }
+                console.log("ds cc", supplierIds)
+            });
+
+            // check từng cái
+            $('input[name="checkbox"]').click(function () {
+                if (this.checked) {
+                    var productId = $(this).data('id');
+                    supplierIds.push(productId)
+                    var jsonData = JSON.stringify(supplierIds);
+                }
+                else {
+                    //console.log("id da bo", $(this).data('id'));
+                    const checkall = document.getElementById("checkall");
+                    checkall.checked = false;
+
+                    for (let i = 0; i < supplierIds.length; i++) {
+                        if (supplierIds[i] == $(this).data('id'))
+                            supplierIds.splice(i, 1)
+                    }
+                    //console.log("bo check", productIds)
+                }
+                console.log("ds cc", supplierIds)
+            });
+
+            //xóa nhiều
+            $('.btn-deletemany').click(function () {
+                if (supplierIds.length > 0) {
+                    // Truyền mảng productIds lên server bằng AJAX và xử lý xóa nhiều.
+                    var jsonData = JSON.stringify(supplierIds);
+                    console.log("dl truyen di", supplierIds)
+                    $.ajax({
+                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                        url: '/Admin/NhaCungCaps/DeleteMany', // URL của endpoint trên server
+                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (data) {
+                            console.log("Thành công gửi dữ liệu lên server.");
+                            console.log("data", data);
+
+                            var tableSuppliers = '<table style="border-collapse: collapse;width:-webkit-fill-available;">' +
+                                '<thead>' +
+                                '<tr>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Tên nhà cung cấp</th>' +
+                                '</tr>' +
+                                '</thead>' +
+                                '<tbody>';
+
+                            for (var i = 0; i < data.suppliers.length; i++) {
+                                var supplier = data.suppliers[i];
+                                tableSuppliers += '<tr>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + supplier.nccTen + '</td>' +
+                                    '</tr>';
+                            }
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Bạn có muốn xóa các nhà cung cấp',
+                                html: tableSuppliers,
+                                confirmButtonText: 'Xóa',
+                                showCancelButton: true
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    var jsonData = JSON.stringify(supplierIds);
+                                    $.ajax({
+                                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                        url: '/Admin/NhaCungCaps/DeleteManyConfirm', // URL của endpoint trên server
+                                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        success: function (data) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xóa nhà cung cấp thành công',
+                                                showConfirmButton: false,
+                                                timer: 1500
+                                            }).then(function () {
+                                                location.reload();
+                                            });
+                                            //console.log("data", data.products);
+                                        },
+                                    });
+                                }
+                            });
+
+                        },
+                        error: function () {
+                            // Xử lý khi request gặp lỗi
+                            console.log("Lỗi trong quá trình gọi AJAX.");
+                        }
+                    });
+                }
+                else {
+                    Swal.fire({
+                        title: 'Vui lòng chọn sản phẩm cần xóa',
+                        icon: 'info',
+                        confirmButtonText: 'Đóng'
+                    })
+                }
+
+            });
+        });
+
+        //them nha cung cap
+
+        //$(document).ready(function () {
+        //    $('.btn-create-supplier').click(function () {
+        //        var supplierId = $(this).data('id');
+        //        console.log(supplierId);
+        //        $.ajax({
+        //            type: "POST",
+        //            url: '/Admin/NhaCungCaps/DetailSupplier?id=' + supplierId,
+        //            success: function (data) {
+        //                if (supplierId != null) {
+        //                    var detailSup =
+        //                        '<div">' +
+        //                        '<p style="padding:24px;font-size:24px"><b>Tên nhà cung cấp:</b> ' + data.nhaCungCap.nccTen + '</p>' + '<br>' +
+        //                        '</div>';
+        //                    Swal.fire({
+        //                        icon: 'info',
+        //                        title: 'Chi tiết nhà cung cấp',
+        //                        html: detailSup,
+        //                        confirmButtonText: 'Đóng'
+        //                    })
+        //                } else {
+        //                    console.log("lỗi nè fen");
+        //                }
+        //            },
+        //            error: function () {
+        //                console.log("Lỗi trong quá trình gọi AJAX.");
+        //            }
+        //        });
+        //    });
+        //});
+
+
+        
+    </script>
+}

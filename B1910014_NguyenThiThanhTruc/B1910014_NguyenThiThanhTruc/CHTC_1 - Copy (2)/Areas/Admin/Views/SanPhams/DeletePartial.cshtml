@@ -1,0 +1,71 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.SanPham>
+<!-- Modal Role-->
+<div class="modal fade" id="DeleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Bạn có muốn xóa sản phẩm</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Nội dung dữ liệu từ controller sẽ được hiển thị ở đây -->
+                <div id="modalContent">
+                    <div style="text-align:center">
+                        <dl class="row">
+                            <dt class="col-4" style="padding:12px 0">
+                                Tên sản phẩm:
+                            </dt>
+                            <dd class="col-sm-8" id="proName">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Giá:
+                            </dt>
+                            <dd class="col-sm-8" id="proPrice">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Số lượng:
+                            </dt>
+                            <dd class="col-sm-8" id="proQuantity">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Mô tả:
+                            </dt>
+                            <dd class="col-sm-8" id="proDescription">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Hình ảnh:
+                            </dt>
+                            <dd class="col-sm-8">
+                                <img id="proImage" src="" alt="Hình ảnh sản phẩm" style="width:122px">
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Loại:
+                            </dt>
+                            <dd class="col-sm-8" id="proCategory">
+
+                            </dd>
+                            <dt class="col-4" style="padding:12px 0">
+                                Nhà cung cấp:
+                            </dt>
+                            <dd class="col-sm-8" id="proSupplier">
+
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                @*<button type="button" class="btn btn-danger" >Xóa</button>*@
+                <form asp-action="DeleteSp">
+                    <input type="hidden" id="proId" name="proId"/>
+                    <input type="submit" value="Xóa" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

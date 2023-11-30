@@ -1,0 +1,103 @@
+﻿@model CHTC_1.Models.HoaDon
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<ChiTietHoaDon> chitiethoadon = ViewBag.ChiTiet;
+}
+
+
+<section class="h-100 h-custom">
+    <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+
+                <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Chi tiết đơn hàng</h1>
+                </div>
+
+
+                <div>
+                    <dl class="row">
+                        <dt class="col-sm-2">
+                            Tổng tiền:
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Model.HdTongtien.ToString("#,##0") VNĐ
+                        </dd>
+                        <dt class="col-sm-2">
+                            Ngày đặt:
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.HdNgay)
+                        </dd>
+                        <dt class="col-sm-2">
+                            Người đặt:
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Nd.NdHoten)
+                        </dd>
+                        <dt class="col-sm-2">
+                            Phương thức thanh toán:
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Pttt.PtttTen)
+                        </dd>
+                        <dt class="col-sm-2">
+                            Trạng thái đơn hàng:
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Tthd.TthdTrangthai)
+                        </dd>
+                    </dl>
+                </div>
+
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Sản phẩm</th>
+                                <th scope="col"></th>
+                                <th scope="col">Giá</th>
+                                <th scope="col">Số lượng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var item in chitiethoadon)
+                            {
+                                <tr>
+                                    <th scope="row">
+                                        <div class=" align-items-center">
+                                            <img src="/images/@item.Sp.SpHinhanh" class="img-fluid rounded-3"
+                                                 style="width: 120px;" alt="Book">
+                                        </div>
+                                    </th>
+                                    <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">@item.Sp.SpTensp</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">@item.Sp.SpGia.ToString("#,##0") VNĐ</p>
+                                    </td>
+
+                                    <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">@item.CthdSoluong</p>
+                                    </td>
+                                </tr>
+                            }
+                            
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <a asp-action="Index" class="btn btn-light btn-icon-split">
+                        <span class="icon text-gray-600">
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                        <span class="text">Trở lại</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

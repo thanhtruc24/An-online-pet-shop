@@ -1,0 +1,33 @@
+﻿@model CHTC_1.Models.PhuongThucThanhToan
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin-left:24px">
+    <h1 style="text-align:center">Chỉnh sửa phương thức thanh toán</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PtttId" />
+            <div class="form-group">
+                <label asp-for="PtttTen" class="control-label"></label>
+                <input asp-for="PtttTen" class="form-control" />
+                <span asp-validation-for="PtttTen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+<div>
+    <a asp-action="Index">Trở về</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

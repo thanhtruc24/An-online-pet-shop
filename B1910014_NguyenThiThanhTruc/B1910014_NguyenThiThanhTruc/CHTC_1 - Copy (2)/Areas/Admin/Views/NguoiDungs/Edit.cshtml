@@ -1,0 +1,97 @@
+﻿@model CHTC_1.Models.NguoiDung
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin-left:24px">
+<h1 style="text-align:center">Chỉnh sửa người dùng</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-area="Admin" asp-controller="NguoiDungs" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NdId" />
+           @* <div class="form-group">
+                <label asp-for="VtId" class="control-label">Quyền</label>
+                <select asp-for="VtId" class="form-control" asp-items="@ViewBag.Vaitrotaikhoan" required>
+                    <option value="0" disabled selected>Chọn vai trò</option>
+                </select>
+                <span asp-validation-for="VtId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="NdHoten" class="control-label">Họ tên:</label>
+                <input asp-for="NdHoten" class="form-control"/>
+                <span asp-validation-for="NdHoten" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdHinhanh" class="control-label">Ảnh đại diện:</label>
+                <img src="/images/@Model.NdHinhanh" alt="User Picture" style="width:200px; height:auto;" id="previewImage">
+                <input type="file" name="ifile" asp-for="NdHinhanh" class="form-control-file" id="imageInput" />
+                <span asp-validation-for="NdHinhanh" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="TkEmail" class="control-label">Email</label>
+                <input asp-for="TkEmail" class="form-control" readonly="readonly"/>
+                <span asp-validation-for="TkEmail" class="text-danger"></span>
+            </div>*@
+                @*<input asp-for="TkMatkhau" class="form-control" type="hidden" readonly="readonly" />*@
+            @*<div class="form-group">
+                
+                <input asp-for="NdMatkhau" type="password" class="form-control" readonly="readonly" />
+                <span asp-validation-for="NdMatkhau" class="text-danger"></span>
+            </div>*@
+                <div class="form-group">
+                    <label asp-for="NdSdt" class="control-label">Số điện thoại:</label>
+                    <input asp-for="NdSdt" class="form-control" />
+                    <span asp-validation-for="NdSdt" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NdDiachi" class="control-label">Địa chỉ:</label>
+                    <input asp-for="NdDiachi" class="form-control" />
+                    <span asp-validation-for="NdDiachi" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Giới tính:</label>
+                    <div>
+                        <div style="display: inline-block;margin:12px 12px;">
+                            <label class="control-label">Nam</label>
+                            <input type="radio" asp-for="NdGioitinh" value="0" />
+                        </div>
+                        <div style="display: inline-block;margin:12px 12px;">
+                            <label class="control-label">Nữ</label>
+                            <input type="radio" asp-for="NdGioitinh" value="1" />
+                        </div>
+                        <div style="display: inline-block;margin:12px 12px;">
+                            <label class="control-label">Khác</label>
+                            <input type="radio" asp-for="NdGioitinh" value="2" />
+                        </div>
+
+                    </div>
+                </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-outline-success" />
+                <a asp-action="Index" class="btn btn-outline-secondary">Trở lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $('#imageInput').on('change', function () {
+            console.log("load ảnh")
+            var imgInput = $('#imageInput').data('id')
+            var previewImg = $('previewImage').data('id')
+            if (imageInput.files && imageInput.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    previewImage.src = e.target.result;
+                };
+                reader.readAsDataURL(imageInput.files[0]);
+            }
+        })
+    </script>
+}

@@ -1,0 +1,428 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.PhieuNhapHang>
+
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Danh sách sản phẩm" + CurrentPage;
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div style="margin:24px">
+    <h1 style="text-align:center">Nhập hàng</h1>
+    <div>
+        <div style="display:inline-block;margin:12px 20px">
+            <a asp-action="Create" class="btn btn-outline-info">
+                Thêm mới
+            </a>
+        </div>
+        <div style="display:inline-block">
+            <a class="btn btn-outline-danger btn-deletemany">
+                Xóa nhiều
+            </a>
+        </div>
+    </div>
+
+    @*<div class="form-group" style="width:180px!important;display:inline-block">
+    <input type="text" class="form-control bg-light border-0 small search-input" placeholder="Search for..." id="keyword" name="keyword"
+    aria-label="Search" aria-describedby="basic-addon2">
+    </div>*@
+
+    @*<div class="form-group" style="width:180px!important;display:inline-block">
+    <label class="control-label"></label>
+    <select id="txtLoaiID" name="txtLoaiID" class="form-control" asp-items="@ViewBag.Loai" required>
+    <option selected>Chọn loại</option>
+    <option value="0">Chọn tất cả</option>
+    </select>
+    </div>*@
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <input type="checkbox" name="checkall" id="checkall">
+                </th>
+                <th>
+                    Mã hóa đơn nhập
+                </th>
+                <th>
+                    Ngày nhập
+                </th>
+                <th>
+                    Nhân viên xử lý
+                </th>
+                <th>
+                    Đơn giá
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="table">
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="checkbox" data-id="@item.PnhId">
+                        </td>
+                        <td style="width:200px">
+                            @Html.DisplayFor(modelItem => item.PnhId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PnhNgaynhap)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nd.NdHoten)
+                        </td>
+                        <td>
+                            @item.PndDongia.ToString("#,##0") VNĐ
+                        </td>
+                        <td>
+                           @* <a asp-route-id="@item.PnhId" class="crudicon">
+                                <span class="material-symbols-outlined">
+                                    edit_square
+                                </span>
+                            </a>*@
+                            <a asp-action="Details" asp-route-id="@item.PnhId" class="crudicon btn-details-pro" >
+                                <span class="material-symbols-outlined">
+                                    visibility
+                                </span>
+                            </a>
+                            @* <a data-id="@item.SpId" class="btn btn-info btn-details-pro" data-toggle="modal" data-target="DetailsModal" onclick="openDetailsModal(@item.SpId)">
+                    <i class="fas fa-info-circle"></i>
+                    </a>*@
+
+                            @* <a data-id="@item.SpId" class="btn btn-danger btn-detele-pro" data-toggle="modal" data-target="DeleteModal">
+                    <i class="fas fa-trash"></i>
+                    </a>*@
+                            <a data-id="@item.PnhId" class="crudicon btn-detele-receipt">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </a>
+                        </td>
+
+
+
+                        
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" style="text-align:center">Chưa có hóa đơn nhập hàng nào</td>
+                </tr>
+               
+            }
+        </tbody>
+        @*@await Html.PartialAsync("DetailsPartial.cshtml")
+        @await Html.PartialAsync("DeletePartial.cshtml")*@
+    </table>
+    <div aria-label="Page navigation example">
+        <ul class="pagination">
+            <pager class="pager-container" list="@Model" asp-area="Admin" asp-controller="SanPhams" asp-route-LoaiID="@ViewBag.CurrentLoaiID" asp-action="Index" />
+        </ul>
+    </div>
+</div>
+
+
+
+@section Scripts{
+    <script>
+
+        $(document).ready(function () {
+            $('.btn-detele-receipt').click(function () {
+                var receiptId = $(this).data('id');
+                console.log(receiptId);
+                $('#receiptId').val(receiptId);
+                $.ajax({
+                    type: "GET",
+                    url: '/Admin/NhapHangs/DeleteSp?id=' + receiptId,
+                    success: function (data) {
+                        if (receiptId != null) {
+                            console.log(data)
+                            var formattedTime = moment(data.phieunhaphang.pnhNgaynhap).format('DD/MM/YYYY HH:mm');
+                            var time = formattedTime;
+                            var detailReceipt = '<div class="row" style="width:800px">' +
+                                '<div class="col-sm-6">' +
+                                '<p><b>Mã phiếu nhập:</b> ' + data.phieunhaphang.pnhId + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                '<p><b>Đơn giá :</b> ' + data.phieunhaphang.pndDongia.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                '<p><b>Ngày nhập:</b> ' + time + '</p>' + '<br>' +
+                                '</div>' +
+                                '<div class="col-sm-6">' +
+                                //'<p><b>Nhân viên nhập:</b> ' + '</p>' + '<br>' +
+                                '</div>';
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Bạn có muốn xóa phiếu nhập hàng này',
+                                html: detailReceipt,
+                                width: 900,
+                                confirmButtonText: 'Xóa',
+                                showCancelButton: true
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    var jsonData = JSON.stringify(receiptId);
+                                    $.ajax({
+                                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                        url: '/Admin/NhapHangs/DeleteConfirm', // URL của endpoint trên server
+                                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        success: function (data) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xóa phiếu nhập hàng thành công',
+                                                showConfirmButton: false,
+                                                timer: 1500
+                                            }).then(function () {
+                                                location.reload();
+                                            });
+                                            //console.log("data", data.products);
+                                        },
+                                    });
+                                }
+                            });
+                        } else {
+                            console.log("lỗi nè fen");
+                        }
+                    },
+                    error: function () {
+                        console.log("Lỗi trong quá trình gọi AJAX.");
+                    }
+                });
+            });
+        });
+
+        //chọn all checkbox
+        $(document).ready(function () {
+            var phieunhapIds = [];
+            // click checkall
+            $('#checkall').click(function () {
+                var checkAllChecked = $(this).prop('checked');
+                $('input[name="checkbox"]').prop('checked', checkAllChecked);
+                //console.log(checkAllChecked);
+                if (checkAllChecked) {
+                    phieunhapIds = [];
+                    $('input[name="checkbox"]:checked').each(function () {
+                        phieunhapIds.push($(this).data('id'));
+                    });
+                }
+                else {
+                    let i = 0;
+                    while (i < phieunhapIds.length) {
+                        console.log(phieunhapIds[i]);
+                        phieunhapIds.splice(i, 1);
+                    }
+                }
+                console.log("ds cc", phieunhapIds)
+            });
+
+            // check từng cái
+            $('input[name="checkbox"]').click(function () {
+                if (this.checked) {
+                    var phieunhapId = $(this).data('id');
+                    phieunhapIds.push(phieunhapId)
+                    var jsonData = JSON.stringify(phieunhapIds);
+                }
+                else {
+                    //console.log("id da bo", $(this).data('id'));
+                    const checkall = document.getElementById("checkall");
+                    checkall.checked = false;
+
+                    for (let i = 0; i < phieunhapIds.length; i++) {
+                        if (phieunhapIds[i] == $(this).data('id'))
+                            phieunhapIds.splice(i, 1)
+                    }
+                    //console.log("bo check", productIds)
+                }
+                console.log("ds cc", phieunhapIds)
+            });
+
+            //xóa nhiều
+            $('.btn-deletemany').click(function () {
+                if (phieunhapIds.length > 0) {
+                    // Truyền mảng productIds lên server bằng AJAX và xử lý xóa nhiều.
+                    var jsonData = JSON.stringify(phieunhapIds);
+                    console.log("dl truyen di", phieunhapIds)
+                    $.ajax({
+                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                        url: '/Admin/NhapHangs/DeleteMany', // URL của endpoint trên server
+                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (data) {
+                            console.log("data", data.phieunhaps);
+
+                            var tableReceipts = '<table style="border-collapse: collapse;width:-webkit-fill-available;">' +
+                                '<thead>' +
+                                '<tr>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Mã phiếu nhập</th>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Đơn giá</th>' +
+                                '<th style="border: 1px solid #ddd;text-align:center">Ngày nhập</th>' +
+                                '</tr>' +
+                                '</thead>' +
+                                '<tbody>';
+
+                            for (var i = 0; i < data.phieunhaps.length; i++) {
+                                var phieunhap = data.phieunhaps[i];
+                                var formattedTime = moment(phieunhap.pnhNgaynhap).format('DD/MM/YYYY HH:mm');
+                                var time = formattedTime;
+                                tableReceipts += '<tr>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + phieunhap.pnhId + '</td>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + phieunhap.pndDongia.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }) + '</td>' +
+                                    '<td style="border: 1px solid #ddd;text-align:center">' + time + '</td>' +
+                                    '</tr>';
+                            }
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Bạn có muốn xóa các phiếu nhập hàng đã chọn',
+                                html: tableReceipts,
+                                confirmButtonText: 'Xóa',
+                                showCancelButton: true
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    var jsonData = JSON.stringify(phieunhapIds);
+                                    $.ajax({
+                                        type: "POST", // Loại request (có thể sử dụng GET hoặc POST tùy theo yêu cầu của bạn)
+                                        url: '/Admin/NhapHangs/DeleteManyConfirm', // URL của endpoint trên server
+                                        data: jsonData, // Dữ liệu bạn muốn gửi lên server
+                                        contentType: "application/json; charset=utf-8",
+                                        dataType: "json",
+                                        success: function (data) {
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Xóa phiếu nhập hàng thành công',
+                                                showConfirmButton: false,
+                                                timer: 1500
+                                            }).then(function () {
+                                                location.reload();
+                                            });
+                                            //console.log("data", data.products);
+                                        },
+                                    });
+                                }
+                            });
+
+                        },
+                        error: function () {
+                            // Xử lý khi request gặp lỗi
+                            console.log("Lỗi trong quá trình gọi AJAX.");
+                        }
+                    });
+                }
+                else {
+                    Swal.fire({
+                        title: 'Vui lòng chọn phiếu nhập hàng cần xóa',
+                        icon: 'info',
+                        confirmButtonText: 'Đóng'
+                    })
+                }
+
+            });
+        });
+
+
+
+
+
+        //$(document).ready(function () {
+        //    jQuery("#txtLoaiID").change(function () {
+        //        var loaiID = jQuery(this).children(":selected").attr("value");
+        //        loaiID = parseFloat(loaiID);
+        //        $('#txtLoaiID option')
+        //            .removeAttr('selected');
+        //        $("#txtLoaiID > [value=" + loaiID + "]").attr("selected", "true");
+        //        $.ajax({
+        //            url: '/Admin/SanPhams/Filtter',
+        //            datatype: "json",
+        //            type: "GET",
+        //            data: {
+        //                LoaiID: loaiID
+        //            },
+        //            async: true,
+        //            success: function (results) {
+        //                if (results.status == "success") {
+        //                    window.location.href = results.redirectUrl;
+        //                }
+        //            },
+        //            error: function (xhr) {
+        //                alert('error');
+        //            }
+        //        });
+        //    });
+        //});
+
+        //$(document).ready(function () {
+        //    $("#keyword").keyup(function () {
+        //        var strkeyword = $('#keyword').val();
+        //        $.ajax({
+        //            url: '/Admin/Search/FindProduct/',
+        //            datatype: "json",
+        //            type: "POST",
+        //            data: { keyword: strkeyword },
+        //            async: true,
+        //            success: function (results) {
+        //                $("#table").html("");
+        //                $("#table").html(results);
+        //            },
+        //            error: function (xhr) {
+        //                alert('error');
+        //            }
+        //        });
+        //    });
+        //});
+
+        //$(document).ready(function () {
+        //    $('.btn-details-pro').click(function () {
+        //        var productId = $(this).data('id');
+        //        console.log(productId);
+        //        $.ajax({
+        //            type: "GET",
+        //            url: '/Admin/SanPhams/DetailsSp?id=' + productId,
+        //            success: function (data) {
+        //                if (productId != null) {
+        //                    console.log(productId);
+        //                    console.log(data.nccTen);
+        //                    console.log(data.loaiTen);
+        //                    console.log(data.sanPham);
+        //                    // Cập nhật nội dung modal với dữ liệu từ server
+        //                    $("#DetailsModal .modalContent").html(data);
+        //                    $('#productName').text(data.sanPham.spTensp);
+        //                    $('#productPrice').text(data.sanPham.spGia);
+        //                    $('#productQuantity').text(data.sanPham.spSoluong);
+        //                    $('#productDescription').text(data.sanPham.spMota);
+        //                    var imageUrl = '/images/' + data.sanPham.spHinhanh;
+        //                    $('#productImage').attr('src', imageUrl);
+        //                    $('#productCategory').text(data.loaiTen);
+        //                    $('#productSupplier').text(data.nccTen);
+
+
+        //                    // Hiển thị modal
+        //                    $("#DetailsModal").modal("show");
+        //                } else {
+        //                    console.log("lỗi nè fen");
+        //                }
+        //            },
+        //            error: function () {
+        //                console.log("Lỗi trong quá trình gọi AJAX.");
+        //            }
+        //        });
+        //    });
+        //});
+
+        
+
+
+                    //function showAlert(){
+                    //Swal.fire({
+                    //    title: 'Thông báo',
+                    //    text: 'Chào mừng bạn đến với SweetAlert!',
+                    //    icon: 'question',
+                    //    confirmButtonText: 'OK'
+                    //    });
+                    //};
+    </script>
+}

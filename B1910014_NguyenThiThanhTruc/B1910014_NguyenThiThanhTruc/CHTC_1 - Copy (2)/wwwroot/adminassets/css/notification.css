@@ -1,0 +1,130 @@
+﻿.icon-container {
+	position: relative;
+	display: inline-block;
+}
+
+#popover {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	z-index: 1;
+	left: -390px;
+	top: 46px;
+	/*min-width: 300px;*/
+	cursor: pointer;
+	overflow: auto;
+}
+
+/*#icon:hover + #popover {
+	display: block;
+}*/
+#icon:hover{
+	cursor:pointer;
+}
+
+
+.noti{
+	display:inline-block;
+}
+.content-noti{
+	width: 300px;
+}
+
+.status-noti {
+	font-size: 12px !important;
+	border-radius: 8px;
+}
+.isActivestatus {
+	background: chartreuse;
+}
+
+.popover-noti{
+	width:400px !important;
+}
+
+.popover-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-bottom: 1px solid #ccc;
+	max-height: 435px;
+	overflow: auto;
+}
+
+.popover-container:hover{
+	background-color: azure;
+}
+.title-noti{
+	font-weight: 800;
+	color:#000;
+}
+
+/*css notification customer*/
+
+.icon-container-cus {
+	position: relative;
+	display: inline-block;
+}
+
+#popoverCus {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	z-index: 1;
+	left: -390px;
+	top: 46px;
+	/*min-width: 300px;*/
+	cursor: pointer;
+	overflow: auto;
+}
+
+/*#icon:hover + #popover {
+	display: block;
+}*/
+#iconCus:hover {
+	cursor: pointer;
+}
+
+
+.noti {
+	display: inline-block;
+}
+
+.content-noti {
+	width: 300px;
+}
+
+.status-noti {
+	font-size: 12px !important;
+	border-radius: 8px;
+}
+
+.isActivestatus {
+	background: chartreuse;
+}
+
+.popover-noti-Cus {
+	width: 440px !important;
+}
+
+.popover-container-cus {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-bottom: 1px solid #ccc;
+	max-height: 435px;
+	overflow: auto;
+}
+
+	.popover-container-cus:hover {
+		background-color: azure;
+	}
+
+.title-noti {
+	font-weight: 800;
+	color: #000;
+}

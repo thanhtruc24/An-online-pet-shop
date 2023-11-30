@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Luanvan2810\\B1910014_NguyenThiThanhTruc\\B1910014_NguyenThiThanhTruc\\CHTC_1 - Copy (2)\\CHTC_1.csproj": {}
+  },
+  "projects": {
+    "F:\\Luanvan2810\\B1910014_NguyenThiThanhTruc\\B1910014_NguyenThiThanhTruc\\CHTC_1 - Copy (2)\\CHTC_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Luanvan2810\\B1910014_NguyenThiThanhTruc\\B1910014_NguyenThiThanhTruc\\CHTC_1 - Copy (2)\\CHTC_1.csproj",
+        "projectName": "CHTC_1",
+        "projectPath": "F:\\Luanvan2810\\B1910014_NguyenThiThanhTruc\\B1910014_NguyenThiThanhTruc\\CHTC_1 - Copy (2)\\CHTC_1.csproj",
+        "packagesPath": "C:\\Users\\HAPPY\\.nuget\\packages\\",
+        "outputPath": "F:\\Luanvan2810\\B1910014_NguyenThiThanhTruc\\B1910014_NguyenThiThanhTruc\\CHTC_1 - Copy (2)\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HAPPY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCoreHero.ToastNotification": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Gravatar": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "PagedList.Core.Mvc": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Sek.Module.Payment.VnPay.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "SweetAlert": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "VNPayPackage": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

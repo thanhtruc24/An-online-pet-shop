@@ -1,0 +1,32 @@
+﻿@*@model List<ChitietPhieuNhap>
+@{
+    double totalMoney = 0;
+}
+
+<div class="your-order-table table-responsive">
+    <table class="table">
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                foreach (var item in Model)
+                {
+                    double money = (double)(item.CtpnSoluong * item.CtpnGiagoc);
+                    totalMoney = totalMoney + (double)money;
+                    <tr class="cart_item">
+                        <td> <img src="~/images/@item.Sp.SpHinhanh" height="200px" width="200px" /></td>
+                        <td class="cart-product-name">
+                            @item.Sp.SpTensp<strong class="product-quantity">× @item.CtpnSoluong</strong>
+                        </td>
+                        <td class="cart-product-total"><span class="amount">@money.ToString("#,##0") VNĐ</span></td>
+                    </tr>
+                }
+            }
+        </tbody>
+        <tfoot>
+            <tr class="order-total">
+                <th>TỔNG TIỀN</th>
+                <td><strong><span class="totalPrice">@totalMoney.ToString("#,##0") VNĐ</span></strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>*@

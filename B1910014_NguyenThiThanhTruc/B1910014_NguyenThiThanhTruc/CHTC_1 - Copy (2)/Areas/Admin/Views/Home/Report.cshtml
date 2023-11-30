@@ -1,0 +1,254 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<CHTC_1.Models.HoaDon>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    var total = ViewBag.Total;
+    //var dondat = ViewBag.dondat;
+}
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <!-- Earnings (Monthly) Card Example -->
+       @* <div class="col-md-6 mb-4" style="height: 200px;">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="font-weight-bold text-primary text-uppercase mb-1">
+                                Báo cáo doanh thu
+                            </div>
+                            
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        <!-- Earnings (Monthly) Card Example -->
+       @*<div class="col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="font-weight-bold text-success text-uppercase mb-1">
+                                Đơn đặt trong ngày
+                            </div>
+                            
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        <!-- Earnings (Monthly) Card Example -->
+      @*  <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                Doanh thu
+                            </div>
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-auto">
+                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pending Requests Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                Tin nhắn
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+            <div style="width:100%">
+                @*<h3 style="text-align:center;padding:24px">Báo cáo doanh thu</h3>*@
+            <div class="btn btn-outline-primary" style="width:100px; height:40px; margin:24px" id="btnPrint">
+                <span class="material-symbols-outlined">
+                    print
+                </span>
+                @*<p>In</p>*@
+            </div>
+                    <select id="timeselected" name="timeselected" required style="width:200px; border:1px solid #ccc; border-radius:8px; height:42px ">
+                        <option selected>Chọn thời gian</option>
+                        <option value="0">Ngày</option>
+                        <option value="1">Tuần</option>
+                        <option value="2">Tháng</option>
+                        @*<option value="3">Quý</option>*@
+                    </select>
+
+               
+            </div>
+        <div id="previewContent" style="width:100%">
+                <div style="width:100%">
+                    <h3 style="color:#1cc88a;display:inline-block;">Tổng doanh thu: </h3> <h3 style="display:inline-block;">@total.ToString("#,##0") VNĐ </h3>
+                </div>
+            <table class="table" @*style="border: 1px solid #ccc;*@>
+                <thead>
+                    <tr>
+                        <th>
+                            Mã hóa đơn
+                        </th>
+                        <th>
+                            Tổng tiền
+                        </th>
+                        <th>
+                            Ngày đặt
+                        </th>
+                        <th>
+                            Khách hàng
+                        </th>
+                        <th>
+                            Phương thức thanh toán
+                        </th>
+                        <th>
+                            Trạng thái
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.HdId)
+                                </td>
+                                <td>
+                                    @item.HdTongtien.ToString("#,##0") VNĐ
+                                </td>
+                                <td>
+                                    @String.Format("{0:dd/MM/yyyy HH:mm:ss}", item.HdNgay)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Nd.NdHoten)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Pttt.PtttTen)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Tthd.TthdTrangthai)
+                                </td>
+
+
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" style="text-align:center">Chưa có đơn đặt hàng nào trong ngày hôm nay</td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+
+            </div>
+           
+        
+</div>
+    <div aria-label="Page navigation example">
+        <ul class="pagination">
+            <pager class="pager-container" list="@Model" asp-area="Admin" asp-controller="Home" asp-route-time="@ViewBag.time" asp-action="Report" />
+        </ul>
+    </div>
+</div>
+
+    @section Scripts{
+        <script>
+            $(document).ready(function () {
+                //$.ajax({
+                //    url: '/Admin/Home/SalesReport',
+                //    method: 'GET',
+                //    success: function (data) {
+                //        //console.log("dô đây rồi nè")
+                //        const tbody = document.querySelector("#saleinweek");
+                //        data.orderlist.forEach(item => {
+                //        var formattedTime = moment(item.hdNgay).format('DD/MM/YYYY HH:mm');
+                //        var time = formattedTime;
+                //            const row = document.createElement("tr");
+                //            row.innerHTML = `<td>${item.hdId}</td>
+                //                            <td>${item.ndId}</td>
+                //                            <td>${time}</td>
+                //                            <td>${item.ptttId}</td>
+                //                            <td>${item.hdTongtien}</td>`;
+                //            tbody.appendChild(row);
+                //        });
+                //    }
+                //})
+                var time = $('#timeselected').val();
+                $('#timeselected').change(function(){
+                    time = $('#timeselected').val();
+                    console.log("lay",time)
+                    $.ajax({
+                    url: '/Admin/Home/Filter',
+                        datatype: "json",
+                        type: "GET",
+                        data: {
+                           time : time
+                        },
+                        async: true,
+                        success: function (results) {
+                            if (results.status == "success") {
+                                window.location.href = results.redirectUrl;
+                            }
+                        },
+                        error: function (xhr) {
+                            alert('error');
+                        }
+                    });
+                });
+
+                $('#btnPrint').click(function (){
+                    var printContents = document.getElementById('previewContent').innerHTML;
+                    var originalContents = document.body.innerHTML;
+
+                    document.body.innerHTML = printContents;
+
+                    window.print();
+
+                    // Sử dụng sự kiện onafterprint để đảm bảo rằng quá trình in đã hoàn thành
+                    window.onafterprint = function () {
+                        document.body.innerHTML = originalContents;
+                        window.onafterprint = null; // Đảm bảo sự kiện chỉ được gọi một lần
+                    };
+                });
+           
+
+
+            });
+        </script>
+    }
